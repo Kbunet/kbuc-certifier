@@ -61,13 +61,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
       
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Settings saved successfully')),
+          SnackBar(content: Text(AppLocalizations.of(context)?.settingsSaved ?? 'Settings saved successfully')),
         );
       }
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Error saving settings: $e')),
+          SnackBar(content: Text(AppLocalizations.of(context)?.errorSavingSettings(e.toString()) ?? 'Error saving settings: $e')),
         );
       }
     } finally {
@@ -108,7 +108,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           const SizedBox(width: 8),
                           Expanded(
                             child: Text(
-                              'Connection Error',
+                              AppLocalizations.of(context)?.connectionError ?? 'Connection Error',
                               style: TextStyle(
                                 color: Theme.of(context).colorScheme.error,
                                 fontWeight: FontWeight.bold,
@@ -131,13 +131,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
             if (isConnected)
               Card(
                 color: Theme.of(context).colorScheme.primaryContainer,
-                child: const Padding(
-                  padding: EdgeInsets.all(16),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
                   child: Row(
                     children: [
                       Icon(Icons.check_circle_outline),
                       SizedBox(width: 8),
-                      Text('Connected to Electrum server'),
+                      Text(AppLocalizations.of(context)?.connectedToElectrum ?? 'Connected to Electrum server'),
                     ],
                   ),
                 ),
@@ -151,7 +151,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Theme',
+                      AppLocalizations.of(context)?.theme ?? 'Theme',
                       style: Theme.of(context).textTheme.titleLarge,
                     ),
                     const SizedBox(height: 16),
@@ -160,7 +160,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         return Column(
                           children: [
                             RadioListTile<ThemeMode>(
-                              title: const Text('System'),
+                              title: Text(AppLocalizations.of(context)?.system ?? 'System'),
                               value: ThemeMode.system,
                               groupValue: themeProvider.themeMode,
                               onChanged: (ThemeMode? value) {
@@ -170,7 +170,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                               },
                             ),
                             RadioListTile<ThemeMode>(
-                              title: const Text('Light'),
+                              title: Text(AppLocalizations.of(context)?.light ?? 'Light'),
                               value: ThemeMode.light,
                               groupValue: themeProvider.themeMode,
                               onChanged: (ThemeMode? value) {
@@ -180,7 +180,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                               },
                             ),
                             RadioListTile<ThemeMode>(
-                              title: const Text('Dark'),
+                              title: Text(AppLocalizations.of(context)?.dark ?? 'Dark'),
                               value: ThemeMode.dark,
                               groupValue: themeProvider.themeMode,
                               onChanged: (ThemeMode? value) {
@@ -205,7 +205,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Language / اللغة',
+                      'Language / اللغة / Dil',
                       style: Theme.of(context).textTheme.titleMedium?.copyWith(
                             fontWeight: FontWeight.bold,
                           ),
@@ -213,31 +213,52 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     const SizedBox(height: 16),
                     Consumer<SettingsProvider>(
                       builder: (context, settingsProvider, child) {
-                        return Row(
+                        return Column(
                           children: [
-                            Expanded(
-                              child: RadioListTile<String>(
-                                title: const Text('English'),
-                                value: 'en',
-                                groupValue: settingsProvider.locale.languageCode,
-                                onChanged: (value) {
-                                  if (value != null) {
-                                    settingsProvider.setLanguage(value);
-                                  }
-                                },
-                              ),
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: RadioListTile<String>(
+                                    title: const Text('English'),
+                                    value: 'en',
+                                    groupValue: settingsProvider.locale.languageCode,
+                                    onChanged: (value) {
+                                      if (value != null) {
+                                        settingsProvider.setLanguage(value);
+                                      }
+                                    },
+                                  ),
+                                ),
+                                Expanded(
+                                  child: RadioListTile<String>(
+                                    title: const Text('العربية'),
+                                    value: 'ar',
+                                    groupValue: settingsProvider.locale.languageCode,
+                                    onChanged: (value) {
+                                      if (value != null) {
+                                        settingsProvider.setLanguage(value);
+                                      }
+                                    },
+                                  ),
+                                ),
+                              ],
                             ),
-                            Expanded(
-                              child: RadioListTile<String>(
-                                title: const Text('العربية'),
-                                value: 'ar',
-                                groupValue: settingsProvider.locale.languageCode,
-                                onChanged: (value) {
-                                  if (value != null) {
-                                    settingsProvider.setLanguage(value);
-                                  }
-                                },
-                              ),
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: RadioListTile<String>(
+                                    title: const Text('Türkçe'),
+                                    value: 'tr',
+                                    groupValue: settingsProvider.locale.languageCode,
+                                    onChanged: (value) {
+                                      if (value != null) {
+                                        settingsProvider.setLanguage(value);
+                                      }
+                                    },
+                                  ),
+                                ),
+                                Expanded(child: Container()), // Empty space for alignment
+                              ],
                             ),
                           ],
                         );
@@ -250,7 +271,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             const SizedBox(height: 24),
             // Node Settings Section
             Text(
-              AppLocalizations.of(context)?.settings ?? 'Node Settings',
+              AppLocalizations.of(context)?.nodeSettings ?? 'Node Settings',
               style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
@@ -263,14 +284,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 children: [
                   TextFormField(
                     controller: _hostController,
-                    decoration: const InputDecoration(
-                      labelText: 'Node Address',
-                      hintText: 'e.g., localhost or http://localhost',
-                      helperText: 'You can include http:// or https:// in the address',
+                    decoration: InputDecoration(
+                      labelText: AppLocalizations.of(context)?.nodeAddress ?? 'Node Address',
+                      hintText: AppLocalizations.of(context)?.nodeAddressHint ?? 'e.g., localhost or http://localhost',
+                      helperText: AppLocalizations.of(context)?.nodeAddressHelper ?? 'You can include http:// or https:// in the address',
                     ),
                     validator: (value) {
                       if (value == null || value.isEmpty) {
-                        return 'Please enter the node address';
+                        return AppLocalizations.of(context)?.enterNodeAddress ?? 'Please enter the node address';
                       }
                       return null;
                     },
@@ -278,18 +299,18 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   const SizedBox(height: 16),
                   TextFormField(
                     controller: _portController,
-                    decoration: const InputDecoration(
-                      labelText: 'Port',
-                      hintText: 'e.g., 19332',
+                    decoration: InputDecoration(
+                      labelText: AppLocalizations.of(context)?.port ?? 'Port',
+                      hintText: AppLocalizations.of(context)?.portHint ?? 'e.g., 19332',
                     ),
                     keyboardType: TextInputType.number,
                     validator: (value) {
                       if (value == null || value.isEmpty) {
-                        return 'Please enter the port number';
+                        return AppLocalizations.of(context)?.enterPortNumber ?? 'Please enter the port number';
                       }
                       final port = int.tryParse(value);
                       if (port == null || port <= 0 || port > 65535) {
-                        return 'Please enter a valid port number (1-65535)';
+                        return AppLocalizations.of(context)?.enterValidPort ?? 'Please enter a valid port number (1-65535)';
                       }
                       return null;
                     },
@@ -297,9 +318,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   const SizedBox(height: 16),
                   TextFormField(
                     controller: _usernameController,
-                    decoration: const InputDecoration(
-                      labelText: 'Username (Optional)',
-                      hintText: 'Leave empty if not required',
+                    decoration: InputDecoration(
+                      labelText: AppLocalizations.of(context)?.username ?? 'Username (Optional)',
+                      hintText: AppLocalizations.of(context)?.usernameHint ?? 'Leave empty if not required',
                     ),
                     validator: (value) {
                       // Username is optional
@@ -309,9 +330,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   const SizedBox(height: 16),
                   TextFormField(
                     controller: _passwordController,
-                    decoration: const InputDecoration(
-                      labelText: 'Password (Optional)',
-                      hintText: 'Leave empty if not required',
+                    decoration: InputDecoration(
+                      labelText: AppLocalizations.of(context)?.password ?? 'Password (Optional)',
+                      hintText: AppLocalizations.of(context)?.passwordHint ?? 'Leave empty if not required',
                     ),
                     obscureText: true,
                     validator: (value) {
@@ -328,7 +349,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             width: 20,
                             child: CircularProgressIndicator(strokeWidth: 2),
                           )
-                        : const Text('Save Settings'),
+                        : Text(AppLocalizations.of(context)?.saveSettings ?? 'Save Settings'),
                   ),
                   const SizedBox(height: 16),
                   OutlinedButton(
@@ -339,7 +360,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       _usernameController.text = defaults.username;
                       _passwordController.text = defaults.password;
                     },
-                    child: const Text('Reset to Defaults'),
+                    child: Text(AppLocalizations.of(context)?.resetToDefaults ?? 'Reset to Defaults'),
                   ),
                 ],
               ),

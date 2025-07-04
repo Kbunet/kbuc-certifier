@@ -88,6 +88,104 @@
   "@delete": {
     "description": "Button text for delete"
   },
+  "connectionError": "Connection Error",
+  "@connectionError": {
+    "description": "Title for connection error message"
+  },
+  "connectedToElectrum": "Connected to Electrum server",
+  "@connectedToElectrum": {
+    "description": "Message shown when connected to Electrum server"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Title for theme settings section"
+  },
+  "system": "System",
+  "@system": {
+    "description": "System theme option"
+  },
+  "light": "Light",
+  "@light": {
+    "description": "Light theme option"
+  },
+  "dark": "Dark",
+  "@dark": {
+    "description": "Dark theme option"
+  },
+  "nodeSettings": "Node Settings",
+  "@nodeSettings": {
+    "description": "Title for node settings section"
+  },
+  "nodeAddress": "Node Address",
+  "@nodeAddress": {
+    "description": "Label for node address field"
+  },
+  "nodeAddressHint": "e.g., localhost or http://localhost",
+  "@nodeAddressHint": {
+    "description": "Hint for node address field"
+  },
+  "nodeAddressHelper": "You can include http:// or https:// in the address",
+  "@nodeAddressHelper": {
+    "description": "Helper text for node address field"
+  },
+  "enterNodeAddress": "Please enter the node address",
+  "@enterNodeAddress": {
+    "description": "Validation message for empty node address"
+  },
+  "port": "Port",
+  "@port": {
+    "description": "Label for port field"
+  },
+  "portHint": "e.g., 19332",
+  "@portHint": {
+    "description": "Hint for port field"
+  },
+  "enterPortNumber": "Please enter the port number",
+  "@enterPortNumber": {
+    "description": "Validation message for empty port"
+  },
+  "enterValidPort": "Please enter a valid port number (1-65535)",
+  "@enterValidPort": {
+    "description": "Validation message for invalid port"
+  },
+  "username": "Username (Optional)",
+  "@username": {
+    "description": "Label for username field"
+  },
+  "usernameHint": "Leave empty if not required",
+  "@usernameHint": {
+    "description": "Hint for username field"
+  },
+  "password": "Password (Optional)",
+  "@password": {
+    "description": "Label for password field"
+  },
+  "passwordHint": "Leave empty if not required",
+  "@passwordHint": {
+    "description": "Hint for password field"
+  },
+  "saveSettings": "Save Settings",
+  "@saveSettings": {
+    "description": "Button text for saving settings"
+  },
+  "resetToDefaults": "Reset to Defaults",
+  "@resetToDefaults": {
+    "description": "Button text for resetting to defaults"
+  },
+  "settingsSaved": "Settings saved successfully",
+  "@settingsSaved": {
+    "description": "Message shown when settings are saved successfully"
+  },
+  "errorSavingSettings": "Error saving settings: {error}",
+  "@errorSavingSettings": {
+    "description": "Message shown when there is an error saving settings",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Connection refused"
+      }
+    }
+  },
   "cancel": "Cancel",
   "@cancel": {
     "description": "Button text for cancel"

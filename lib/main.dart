@@ -63,6 +63,7 @@ class MyApp extends StatelessWidget {
           supportedLocales: const [
             Locale('en'), // English
             Locale('ar'), // Arabic
+            Locale('tr'), // Turkish
           ],
           home: const HomeScreen(),
         );

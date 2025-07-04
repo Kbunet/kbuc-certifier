@@ -118,9 +118,18 @@ class SettingsProvider with ChangeNotifier {
   
   Future<void> setLanguage(String languageCode) async {
     try {
-      await _prefs.setString(_languageKey, languageCode);
-      _locale = Locale(languageCode);
-      notifyListeners();
+      // Allow all supported languages including Turkish
+      if (languageCode == 'en' || languageCode == 'ar' || languageCode == 'tr') {
+        await _prefs.setString(_languageKey, languageCode);
+        _locale = Locale(languageCode);
+        notifyListeners();
+      } else {
+        // For unsupported languages, default to English
+        print('Warning: Language $languageCode not supported, using English');
+        await _prefs.setString(_languageKey, 'en');
+        _locale = const Locale('en');
+        notifyListeners();
+      }
     } catch (e) {
       _error = 'Failed to save language setting: $e';
       print('Error saving language setting: $e');

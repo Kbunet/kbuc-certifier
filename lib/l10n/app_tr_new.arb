@@ -1,0 +1,868 @@
+{
+  "@@locale": "tr",
+  "appTitle": "W3 Sertifika Yöneticisi",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "searchHint": "Sertifikaları ara...",
+  "@searchHint": {
+    "description": "Hint text for the search field"
+  },
+  "filterByTags": "Etiketlere Göre Filtrele",
+  "@filterByTags": {
+    "description": "Button tooltip for tag filtering"
+  },
+  "filterContent": "İçeriği Filtrele",
+  "@filterContent": {
+    "description": "Button tooltip for content filtering"
+  },
+  "help": "Yardım",
+  "@help": {
+    "description": "Button tooltip for help"
+  },
+  "settings": "Ayarlar",
+  "@settings": {
+    "description": "Button tooltip for settings"
+  },
+  "createContent": "Sertifika Oluştur",
+  "@createContent": {
+    "description": "Button tooltip for creating content"
+  },
+  "importContent": "Sertifika İçe Aktar",
+  "@importContent": {
+    "description": "Button tooltip for importing content"
+  },
+  "batchImport": "Toplu İçe Aktarma",
+  "@batchImport": {
+    "description": "Button tooltip for batch import"
+  },
+  "refresh": "Yenile",
+  "@refresh": {
+    "description": "Button tooltip for refresh"
+  },
+  "noCertificatesFound": "Sertifika bulunamadı",
+  "@noCertificatesFound": {
+    "description": "Message shown when no certificates are found"
+  },
+  "tryRemovingFilters": "Bazı etiket filtrelerini kaldırmayı deneyin",
+  "@tryRemovingFilters": {
+    "description": "Suggestion when no certificates are found with filters applied"
+  },
+  "clearAllFilters": "Tüm filtreleri temizle",
+  "@clearAllFilters": {
+    "description": "Button text to clear all filters"
+  },
+  "selected": "Seçildi",
+  "@selected": {
+    "description": "Text showing number of selected items"
+  },
+  "selectAll": "Tümünü seç",
+  "@selectAll": {
+    "description": "Button tooltip for selecting all items"
+  },
+  "exportToCSV": "CSV'ye Aktar",
+  "@exportToCSV": {
+    "description": "Button tooltip for exporting to CSV"
+  },
+  "updateTags": "Etiketleri güncelle",
+  "@updateTags": {
+    "description": "Button tooltip for updating tags"
+  },
+  "deleteSelected": "Seçilenleri sil",
+  "@deleteSelected": {
+    "description": "Button tooltip for deleting selected items"
+  },
+  "activeFilters": "Aktif filtreler:",
+  "@activeFilters": {
+    "description": "Label for active filters section"
+  },
+  "and": "VE",
+  "@and": {
+    "description": "Text for AND filter logic"
+  },
+  "or": "VEYA",
+  "@or": {
+    "description": "Text for OR filter logic"
+  },
+  "delete": "Sil",
+  "@delete": {
+    "description": "Button text for delete"
+  },
+  "cancel": "İptal",
+  "@cancel": {
+    "description": "Button text for cancel"
+  },
+  "close": "Kapat",
+  "@close": {
+    "description": "Button text for close"
+  },
+  "apply": "Uygula",
+  "@apply": {
+    "description": "Button text for apply"
+  },
+  "save": "Kaydet",
+  "@save": {
+    "description": "Button text for save"
+  },
+  "qrCode": "QR Kodu",
+  "@qrCode": {
+    "description": "Button tooltip for QR code"
+  },
+  "profile": "Profil",
+  "@profile": {
+    "description": "Button tooltip for profile"
+  },
+  "helpAndInformation": "Yardım ve Bilgi",
+  "@helpAndInformation": {
+    "description": "Title for help screen"
+  },
+  "aboutApp": "W3 Sertifika Yöneticisi Hakkında",
+  "@aboutApp": {
+    "description": "Title for about section"
+  },
+  "aboutAppContent": "W3 Sertifika Yöneticisi, CertHash v1.1 şartnamesine dayalı W3CertificateStandard kullanarak akademik sertifikaları oluşturmak, yönetmek ve doğrulamak için tasarlanmış bir uygulamadır.",
+  "@aboutAppContent": {
+    "description": "Content for about section"
+  },
+  "certificateTypes": "Sertifika Türleri",
+  "@certificateTypes": {
+    "description": "Title for certificate types section"
+  },
+  "certificateTypesContent": "Uygulama, derece, katılım, takdir, katılım, tamamlama ve onur sertifikaları dahil olmak üzere çeşitli sertifika türlerini destekler.",
+  "@certificateTypesContent": {
+    "description": "Content for certificate types section"
+  },
+  "creatingCertificates": "Sertifika Oluşturma",
+  "@creatingCertificates": {
+    "description": "Title for creating certificates section"
+  },
+  "singleCertificate": "Tek Sertifika",
+  "@singleCertificate": {
+    "description": "Title for single certificate subsection"
+  },
+  "singleCertificateContent": "Yeni bir sertifika oluşturmak için sağ alt köşedeki + düğmesine dokunun. Tüm gerekli alanları (* ile işaretlenmiş) ve isteğe bağlı alanları doldurun.",
+  "@singleCertificateContent": {
+    "description": "Content for single certificate subsection"
+  },
+  "batchImportTitle": "Toplu İçe Aktarma",
+  "@batchImportTitle": {
+    "description": "Title for batch import subsection"
+  },
+  "batchImportContent": "Bir CSV dosyası kullanarak bir kerede birden fazla sertifikayı içe aktarmak için grafik simgesine dokunun. CSV, tüm gerekli alanları (tür, alıcı, düzenleyen, açıklama, tarih) içermelidir.",
+  "@batchImportContent": {
+    "description": "Content for batch import subsection"
+  },
+  "requiredFields": "Gerekli Alanlar",
+  "@requiredFields": {
+    "description": "Title for required fields subsection"
+  },
+  "requiredFieldsContent": "• Tür: Sertifika türü (derece, katılım, vb.)\n• Alıcı: Sertifikayı alan kişi\n• Düzenleyen: Sertifikayı veren kuruluş\n• Açıklama: Başarının kısa açıklaması\n• Tarih: YYYY-AA-GG formatında düzenleme tarihi",
+  "@requiredFieldsContent": {
+    "description": "Content for required fields subsection"
+  },
+  "optionalFields": "İsteğe Bağlı Alanlar",
+  "@optionalFields": {
+    "description": "Title for optional fields subsection"
+  },
+  "optionalFieldsContent": "• Süre: Kurs/program süresi\n• Etkinlik: İlgili etkinlik adı\n• Konum: Sertifikanın verildiği yer\n• Sertifika Kimliği: Benzersiz tanımlayıcı\n• Etiketler: Filtreleme için anahtar kelimeler (virgülle ayrılmış)",
+  "@optionalFieldsContent": {
+    "description": "Content for optional fields subsection"
+  },
+  "managingCertificates": "Sertifikaları Yönetme",
+  "@managingCertificates": {
+    "description": "Title for managing certificates section"
+  },
+  "searching": "Arama",
+  "@searching": {
+    "description": "Title for searching subsection"
+  },
+  "searchingContent": "Sertifikaları alıcı adı, açıklama veya diğer alanlara göre bulmak için ana ekranın üst kısmındaki arama çubuğunu kullanın.",
+  "@searchingContent": {
+    "description": "Content for searching subsection"
+  },
+  "filteringByTags": "Etiketlere Göre Filtreleme",
+  "@filteringByTags": {
+    "description": "Title for filtering by tags subsection"
+  },
+  "filteringByTagsContent": "Sertifikaları etiketlere göre filtrelemek için sağ üst köşedeki etiket simgesine dokunun. Birden fazla etiket için VE/VEYA mantığı arasında seçim yapabilirsiniz.",
+  "@filteringByTagsContent": {
+    "description": "Content for filtering by tags subsection"
+  },
+  "certificateDetails": "Sertifika Detayları",
+  "@certificateDetails": {
+    "description": "Title for certificate details subsection"
+  },
+  "certificateDetailsContent": "Tüm alanları ve doğrulama durumu dahil olmak üzere tüm detayları görüntülemek için listedeki herhangi bir sertifikaya dokunun.",
+  "@certificateDetailsContent": {
+    "description": "Content for certificate details subsection"
+  },
+  "qrCodeContent": "Kolay doğrulama için sertifika hash'ini içeren bir QR kodu oluşturmak için bir sertifika üzerindeki QR kodu düğmesini kullanın.",
+  "@qrCodeContent": {
+    "description": "Content for QR code subsection"
+  },
+  "deleting": "Silme",
+  "@deleting": {
+    "description": "Title for deleting subsection"
+  },
+  "deletingContent": "Bir sertifikayı koleksiyonunuzdan kaldırmak için sola kaydırın veya silme düğmesini kullanın.",
+  "@deletingContent": {
+    "description": "Content for deleting subsection"
+  },
+  "batchOperations": "Toplu İşlemler",
+  "@batchOperations": {
+    "description": "Title for batch operations section"
+  },
+  "multiSelectMode": "Çoklu Seçim Modu",
+  "@multiSelectMode": {
+    "description": "Title for multi-select mode subsection"
+  },
+  "multiSelectModeContent": "Çoklu seçim moduna girmek için herhangi bir sertifikaya uzun basın. Ardından birden fazla öğeyi seçmek için diğer sertifikalara dokunun.",
+  "@multiSelectModeContent": {
+    "description": "Content for multi-select mode subsection"
+  },
+  "batchTagUpdates": "Toplu Etiket Güncellemeleri",
+  "@batchTagUpdates": {
+    "description": "Title for batch tag updates subsection"
+  },
+  "batchTagUpdatesContent": "Çoklu seçim modunda, seçilen tüm sertifikaların etiketlerini bir kerede güncellemek için etiket simgesine dokunun.",
+  "@batchTagUpdatesContent": {
+    "description": "Content for batch tag updates subsection"
+  },
+  "csvExport": "CSV Dışa Aktarma",
+  "@csvExport": {
+    "description": "Title for CSV export subsection"
+  },
+  "csvExportContent": "Çoklu seçim modunda, seçilen tüm sertifikaları yeniden içe aktarma için kullanılabilecek bir CSV dosyasına aktarmak için indirme simgesine dokunun.",
+  "@csvExportContent": {
+    "description": "Content for CSV export subsection"
+  },
+  "batchDelete": "Toplu Silme",
+  "@batchDelete": {
+    "description": "Title for batch delete subsection"
+  },
+  "batchDeleteContent": "Çoklu seçim modunda, seçilen tüm sertifikaları bir kerede kaldırmak için silme simgesine dokunun.",
+  "@batchDeleteContent": {
+    "description": "Content for batch delete subsection"
+  },
+  "verificationBlockchain": "Doğrulama ve Blok Zinciri",
+  "@verificationBlockchain": {
+    "description": "Title for verification and blockchain section"
+  },
+  "certificateHash": "Sertifika Hash'i",
+  "@certificateHash": {
+    "description": "Title for certificate hash subsection"
+  },
+  "certificateHashContent": "Her sertifikanın içeriğine dayalı olarak oluşturulmuş benzersiz ve deterministik bir hash'i vardır. Bu hash, sertifikanın değiştirilemeyeceğini garanti eder.",
+  "@certificateHashContent": {
+    "description": "Content for certificate hash subsection"
+  },
+  "electrumXConnection": "ElectrumX Bağlantısı",
+  "@electrumXConnection": {
+    "description": "Title for ElectrumX connection subsection"
+  },
+  "electrumXConnectionContent": "Sertifikaları blok zinciri kayıtlarına göre doğrulamak için ayarlar ekranında ElectrumX sunucu bağlantınızı yapılandırın.",
+  "@electrumXConnectionContent": {
+    "description": "Content for ElectrumX connection subsection"
+  },
+  "verificationStatus": "Doğrulama Durumu",
+  "@verificationStatus": {
+    "description": "Title for verification status subsection"
+  },
+  "verificationStatusContent": "Blok zincirinde kayıtlı sertifikalar, onay sayısı ile birlikte bir doğrulama rozeti gösterecektir.",
+  "@verificationStatusContent": {
+    "description": "Content for verification status subsection"
+  },
+  "electrumXServer": "ElectrumX Sunucusu",
+  "@electrumXServer": {
+    "description": "Title for ElectrumX server subsection"
+  },
+  "electrumXServerContent": "Ana bilgisayar, port ve protokol dahil olmak üzere ElectrumX sunucu bağlantı ayrıntılarını yapılandırın.",
+  "@electrumXServerContent": {
+    "description": "Content for ElectrumX server subsection"
+  },
+  "themeSettings": "Tema Ayarları",
+  "@themeSettings": {
+    "description": "Title for theme settings subsection"
+  },
+  "themeSettingsContent": "Açık ve koyu temalar arasında geçiş yapın veya sistem varsayılanını kullanın.",
+  "@themeSettingsContent": {
+    "description": "Content for theme settings subsection"
+  },
+  "languageSettings": "Dil Ayarları",
+  "@languageSettings": {
+    "description": "Title for language settings subsection"
+  },
+  "languageSettingsContent": "Uygulama arayüzü için tercih ettiğiniz dili seçin.",
+  "@languageSettingsContent": {
+    "description": "Content for language settings subsection"
+  },
+  "storageInformation": "Depolama Bilgisi",
+  "@storageInformation": {
+    "description": "Title for storage information subsection"
+  },
+  "storageInformationContent": "Sertifika verileri, uygulamanın belge dizininde cihazınızda yerel olarak depolanır. Uygulama binlerce sertifikayı verimli bir şekilde işleyebilir, ancak çok büyük koleksiyonlarda performans düşebilir.",
+  "@storageInformationContent": {
+    "description": "Content for storage information subsection"
+  },
+  "exportDirectories": "Dışa Aktarma Dizinleri",
+  "@exportDirectories": {
+    "description": "Title for export directories section"
+  },
+  "exportLocation": "Dışa Aktarma Konumu",
+  "@exportLocation": {
+    "description": "Title for export location subsection"
+  },
+  "exportLocationContent": "Tüm dışa aktarılan dosyalar (sertifikalar ve CSV dışa aktarımları) kolay erişim için özel bir 'KbucCertifier' klasörüne kaydedilir.",
+  "@exportLocationContent": {
+    "description": "Content for export location subsection"
+  },
+  "windowsPath": "Windows",
+  "@windowsPath": {
+    "description": "Title for Windows path subsection"
+  },
+  "windowsPathContent": "C:\\Users\\Kullanıcıadı\\Documents\\KbucCertifier\\",
+  "@windowsPathContent": {
+    "description": "Content for Windows path subsection"
+  },
+  "macOSPath": "macOS",
+  "@macOSPath": {
+    "description": "Title for macOS path subsection"
+  },
+  "macOSPathContent": "/Users/Kullanıcıadı/Documents/KbucCertifier/",
+  "@macOSPathContent": {
+    "description": "Content for macOS path subsection"
+  },
+  "linuxPath": "Linux",
+  "@linuxPath": {
+    "description": "Title for Linux path subsection"
+  },
+  "linuxPathContent": "/home/kullanıcıadı/Documents/KbucCertifier/",
+  "@linuxPathContent": {
+    "description": "Content for Linux path subsection"
+  },
+  "androidPath": "Android",
+  "@androidPath": {
+    "description": "Title for Android path subsection"
+  },
+  "androidPathContent": "Cihaz depolamanızdaki İndirilenler/KbucCertifier klasöründe.",
+  "@androidPathContent": {
+    "description": "Content for Android path subsection"
+  },
+  "iOSPath": "iOS",
+  "@iOSPath": {
+    "description": "Title for iOS path subsection"
+  },
+  "iOSPathContent": "Uygulamanın KbucCertifier klasörü altındaki belge dizininde.",
+  "@iOSPathContent": {
+    "description": "Content for iOS path subsection"
+  },
+  "blockchainIntegration": "Blok Zinciri Entegrasyonu",
+  "@blockchainIntegration": {
+    "description": "Title for blockchain integration section"
+  },
+  "privacyPreservingVerification": "Gizlilik Korumalı Doğrulama",
+  "@privacyPreservingVerification": {
+    "description": "Title for privacy-preserving verification subsection"
+  },
+  "privacyPreservingVerificationContent": "Zincire yalnızca sertifika verilerinin kriptografik hash'i kaydedilir. Gerçek içerik zincir dışında kalır, gizliliği korurken genel doğrulamaya olanak tanır.",
+  "@privacyPreservingVerificationContent": {
+    "description": "Content for privacy-preserving verification subsection"
+  },
+  "immutableIssuerIdentity": "Değiştirilemez Düzenleyici Kimliği",
+  "@immutableIssuerIdentity": {
+    "description": "Title for immutable issuer identity subsection"
+  },
+  "immutableIssuerIdentityContent": "Her sertifika, düzenleyen kurumu temsil eden blok zinciri tabanlı bir kimliğe kalıcı olarak bağlıdır, sahteciliği önler ve güveni sağlar.",
+  "@immutableIssuerIdentityContent": {
+    "description": "Content for immutable issuer identity subsection"
+  },
+  "delegatedCertificateIssuance": "Yetkilendirilmiş Sertifika Düzenleme",
+  "@delegatedCertificateIssuance": {
+    "description": "Title for delegated certificate issuance subsection"
+  },
+  "delegatedCertificateIssuanceContent": "Düzenleme işlemi, kişisel kriptografik anahtar yerine kurumu temsil eden yetkilendirilmiş bir profil aracılığıyla yapılabilir, kurumsal sürekliliği sağlar.",
+  "@delegatedCertificateIssuanceContent": {
+    "description": "Content for delegated certificate issuance subsection"
+  },
+  "certificateOwnership": "Sertifika Sahipliği",
+  "@certificateOwnership": {
+    "description": "Title for certificate ownership subsection"
+  },
+  "certificateOwnershipContent": "Öğrenciler isteğe bağlı olarak sertifikalarının zincir üzerinde sahipliğini alabilir, doğrulama için gerekmeksizin kontrol ve taşınabilirliği artırır.",
+  "@certificateOwnershipContent": {
+    "description": "Content for certificate ownership subsection"
+  },
+  "implementationProcess": "Uygulama Süreci",
+  "@implementationProcess": {
+    "description": "Title for implementation process subsection"
+  },
+  "implementationProcessContent": "1. Kurum için blok zinciri tabanlı bir kimlik yapılandırın\n2. Düzenleme haklarını kontrollü bir profile devredin\n3. Sertifika içeriği oluşturmak ve hash'lemek için bu uygulamayı kullanın\n4. Hash'i ve meta verileri blok zincirine kaydedin\n5. Alıcının saklaması veya paylaşması için sertifika verilerini dışa aktarın",
+  "@implementationProcessContent": {
+    "description": "Content for implementation process subsection"
+  },
+  "aboutKbunetNetwork": "KBUNET Ağı Hakkında",
+  "@aboutKbunetNetwork": {
+    "description": "Title for about KBUNET network section"
+  },
+  "decentralizedIdentities": "Merkezi Olmayan Kimlikler (DID'ler)",
+  "@decentralizedIdentities": {
+    "description": "Title for decentralized identities subsection"
+  },
+  "decentralizedIdentitiesContent": "KBUNET, cüzdanınıza doğrudan bağlı, blok zinciri doğrulamalı güvenli dijital kimlikler sağlar, zincir üzerindeki profiller ve kapsamlı bir itibar sistemi ile dijital benliğiniz üzerinde sahiplik ve kontrol sağlar.",
+  "@decentralizedIdentitiesContent": {
+    "description": "Content for decentralized identities subsection"
+  },
+  "web3ContentManagement": "Web3 İçerik Yönetimi",
+  "@web3ContentManagement": {
+    "description": "Title for web3 content management subsection"
+  },
+  "web3ContentManagementContent": "W3CM uygulaması ile NFT'leri yerel olarak oluşturun ve güvence altına alın, çevrimdışı içerik oluşturma ve üçüncü taraflar olmadan doğrudan blok zinciri kaydı sağlayın. Bu uygulama, sertifika yönetimi için KBUNET ekosisteminin bir parçasıdır.",
+  "@web3ContentManagementContent": {
+    "description": "Content for web3 content management subsection"
+  },
+  "reputationPoints": "İtibar Puanları (RP'ler)",
+  "@reputationPoints": {
+    "description": "Title for reputation points subsection"
+  },
+  "reputationPointsContent": "Ağ katılımı yoluyla İtibar Puanları kazanın ve oluşturun, kullanıcı güvenilirliğini ve kurum güvenilirliğini değerlendirmek için güvensiz bir sistem oluşturur.",
+  "@reputationPointsContent": {
+    "description": "Content for reputation points subsection"
+  },
+  "multipleProfileTypes": "Çoklu Profil Türleri",
+  "@multipleProfileTypes": {
+    "description": "Title for multiple profile types subsection"
+  },
+  "multipleProfileTypesContent": "Kimlik, NFT'ler ve Alan Adları dahil olmak üzere çeşitli profil türleri arasından seçim yapın, her biri sertifika düzenleme dahil farklı kullanım durumlarına uygun özel özelliklerle donatılmıştır.",
+  "@multipleProfileTypesContent": {
+    "description": "Content for multiple profile types subsection"
+  },
+  "officialWebsite": "Resmi Web Sitesi",
+  "@officialWebsite": {
+    "description": "Title for official website section"
+  },
+  "appVersion": "W3 Sertifika Yöneticisi v1.0",
+  "@appVersion": {
+    "description": "App version text"
+  },
+  "english": "İngilizce",
+  "@english": {
+    "description": "English language name"
+  },
+  "arabic": "Arapça",
+  "@arabic": {
+    "description": "Arabic language name"
+  },
+  "turkish": "Türkçe",
+  "@turkish": {
+    "description": "Turkish language name"
+  },
+  "certificateType": "Sertifika Türü",
+  "@certificateType": {
+    "description": "Label for certificate type field"
+  },
+  "recipient": "Alıcı",
+  "@recipient": {
+    "description": "Label for recipient field"
+  },
+  "issuer": "Düzenleyen",
+  "@issuer": {
+    "description": "Label for issuer field"
+  },
+  "description": "Açıklama",
+  "@description": {
+    "description": "Label for description field"
+  },
+  "date": "Tarih",
+  "@date": {
+    "description": "Label for date field"
+  },
+  "duration": "Süre",
+  "@duration": {
+    "description": "Label for duration field"
+  },
+  "event": "Etkinlik",
+  "@event": {
+    "description": "Label for event field"
+  },
+  "location": "Konum",
+  "@location": {
+    "description": "Label for location field"
+  },
+  "certificateId": "Sertifika Kimliği",
+  "@certificateId": {
+    "description": "Label for certificate ID field"
+  },
+  "tags": "Etiketler",
+  "@tags": {
+    "description": "Label for tags field"
+  },
+  "export": "Dışa Aktar",
+  "@export": {
+    "description": "Button text for export"
+  },
+  "editCertificateTags": "Sertifika Etiketlerini Düzenle",
+  "@editCertificateTags": {
+    "description": "Title for edit certificate tags dialog"
+  },
+  "certificateTags": "Sertifika Etiketleri",
+  "@certificateTags": {
+    "description": "Label for certificate tags field"
+  },
+  "enterTagsSeparatedByCommas": "Virgülle ayrılmış etiketleri girin",
+  "@enterTagsSeparatedByCommas": {
+    "description": "Hint for entering tags separated by commas"
+  },
+  "tagsUpdatedSuccessfully": "Etiketler başarıyla güncellendi",
+  "@tagsUpdatedSuccessfully": {
+    "description": "Message shown when tags are updated successfully"
+  },
+  "failedToUpdateTags": "Etiketler güncellenemedi: {error}",
+  "@failedToUpdateTags": {
+    "description": "Message shown when tags update fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "certificateHashVerified": "Sertifika hash'i doğrulandı",
+  "@certificateHashVerified": {
+    "description": "Message shown when certificate hash is verified"
+  },
+  "type": "Tür",
+  "@type": {
+    "description": "Label for type field"
+  },
+  "contentInformation": "İçerik Bilgisi",
+  "@contentInformation": {
+    "description": "Title for content information section"
+  },
+  "id": "ID",
+  "@id": {
+    "description": "Label for ID field"
+  },
+  "standardName": "Standart Adı",
+  "@standardName": {
+    "description": "Label for standard name field"
+  },
+  "standardVersion": "Standart Versiyonu",
+  "@standardVersion": {
+    "description": "Label for standard version field"
+  },
+  "files": "Dosyalar",
+  "@files": {
+    "description": "Label for files field"
+  },
+  "contentHash": "İçerik Hash'i",
+  "@contentHash": {
+    "description": "Label for content hash field"
+  },
+  "name": "Ad",
+  "@name": {
+    "description": "Label for name field"
+  },
+  "created": "Oluşturulma",
+  "@created": {
+    "description": "Label for created field"
+  },
+  "creator": "Oluşturan",
+  "@creator": {
+    "description": "Label for creator field"
+  },
+  "notSet": "Ayarlanmadı",
+  "@notSet": {
+    "description": "Text shown when a field is not set"
+  },
+  "ownerLabel": "Sahip",
+  "@ownerLabel": {
+    "description": "Label for owner field"
+  },
+  "reputationScore": "İtibar Puanı",
+  "@reputationScore": {
+    "description": "Label for reputation score field"
+  },
+  "noTags": "Etiket yok",
+  "@noTags": {
+    "description": "Text shown when there are no tags"
+  },
+  "editTags": "Etiketleri Düzenle",
+  "@editTags": {
+    "description": "Tooltip for edit tags button"
+  },
+  "actions": "İşlemler",
+  "@actions": {
+    "description": "Title for actions section"
+  },
+  "verifyContent": "İçeriği Doğrula",
+  "@verifyContent": {
+    "description": "Button text for verify content"
+  },
+  "verifyingContent": "İçerik doğrulanıyor...",
+  "@verifyingContent": {
+    "description": "Message shown when content is being verified"
+  },
+  "contentVerificationSuccess": "İçerik başarıyla doğrulandı",
+  "@contentVerificationSuccess": {
+    "description": "Message shown when content verification succeeds"
+  },
+  "contentVerificationFailed": "İçerik doğrulaması başarısız oldu",
+  "@contentVerificationFailed": {
+    "description": "Message shown when content verification fails"
+  },
+  "verificationError": "Doğrulama hatası: {error}",
+  "@verificationError": {
+    "description": "Message shown when verification encounters an error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "exportContent": "İçeriği Dışa Aktar",
+  "@exportContent": {
+    "description": "Button text for export content"
+  },
+  "contentExportedSuccess": "İçerik başarıyla dışa aktarıldı",
+  "@contentExportedSuccess": {
+    "description": "Message shown when content is exported successfully"
+  },
+  "failedToExportContent": "İçerik dışa aktarılamadı: {error}",
+  "@failedToExportContent": {
+    "description": "Message shown when content export fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteContent": "İçeriği Sil",
+  "@deleteContent": {
+    "description": "Button text for delete content"
+  },
+  "deleteContentConfirmation": "Bu içeriği silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+  "@deleteContentConfirmation": {
+    "description": "Confirmation message for deleting content"
+  },
+  "durationLabel": "Süre",
+  "@durationLabel": {
+    "description": "Label for duration field"
+  },
+  "verifying": "Sertifika Doğrulanıyor",
+  "@verifying": {
+    "description": "Title for certificate verification dialog"
+  },
+  "fetchingProfile": "Sertifika profili alınıyor...",
+  "@fetchingProfile": {
+    "description": "Message shown when fetching certificate profile"
+  },
+  "certificateProfile": "Sertifika Profili",
+  "@certificateProfile": {
+    "description": "Title for certificate profile dialog"
+  },
+  "noProfileFound": "Profil bilgisi bulunamadı",
+  "@noProfileFound": {
+    "description": "Message shown when no profile information is found"
+  },
+  "errorFetchingProfile": "Profil alınırken hata oluştu",
+  "@errorFetchingProfile": {
+    "description": "Error message when profile fetch fails"
+  },
+  "showing": "Gösteriliyor",
+  "@showing": {
+    "description": "Label for pagination showing items"
+  },
+  "ofTotal": "/",
+  "@ofTotal": {
+    "description": "Preposition for pagination count"
+  },
+  "perPage": "sayfa başına",
+  "@perPage": {
+    "description": "Label for items per page in pagination"
+  },
+  "firstPage": "İlk sayfa",
+  "@firstPage": {
+    "description": "Tooltip for first page button"
+  },
+  "previousPage": "Önceki sayfa",
+  "@previousPage": {
+    "description": "Tooltip for previous page button"
+  },
+  "nextPage": "Sonraki sayfa",
+  "@nextPage": {
+    "description": "Tooltip for next page button"
+  },
+  "lastPage": "Son sayfa",
+  "@lastPage": {
+    "description": "Tooltip for last page button"
+  },
+  "filterLogic": "Filtre Mantığı:",
+  "@filterLogic": {
+    "description": "Label for filter logic section"
+  },
+  "unifiedSearch": "Birleşik Arama",
+  "@unifiedSearch": {
+    "description": "Label for unified search toggle"
+  },
+  "standard": "Standart:",
+  "@standard": {
+    "description": "Label for standard filter dropdown"
+  },
+  "allStandards": "Tüm Standartlar",
+  "@allStandards": {
+    "description": "Option for all standards in filter dropdown"
+  },
+  "showRegisteredOnly": "Sadece Kayıtlı Olanları Göster",
+  "@showRegisteredOnly": {
+    "description": "Label for registered only toggle"
+  },
+  "activeTags": "Aktif Etiketler",
+  "@activeTags": {
+    "description": "Label for active tags section"
+  },
+  "clearFilters": "Filtreleri Temizle",
+  "@clearFilters": {
+    "description": "Button text for clearing filters"
+  },
+  "apply": "Uygula",
+  "@apply": {
+    "description": "Button text for applying filters"
+  },
+  "close": "Kapat",
+  "@close": {
+    "description": "Button text for closing dialog"
+  },
+  "connectionError": "Bağlantı Hatası",
+  "@connectionError": {
+    "description": "Title for connection error message"
+  },
+  "connectedToElectrum": "Electrum sunucusuna bağlandı",
+  "@connectedToElectrum": {
+    "description": "Message shown when connected to Electrum server"
+  },
+  "theme": "Tema",
+  "@theme": {
+    "description": "Title for theme settings section"
+  },
+  "system": "Sistem",
+  "@system": {
+    "description": "System theme option"
+  },
+  "light": "Açık",
+  "@light": {
+    "description": "Light theme option"
+  },
+  "dark": "Koyu",
+  "@dark": {
+    "description": "Dark theme option"
+  },
+  "nodeSettings": "Düğüm Ayarları",
+  "@nodeSettings": {
+    "description": "Title for node settings section"
+  },
+  "nodeAddress": "Düğüm Adresi",
+  "@nodeAddress": {
+    "description": "Label for node address field"
+  },
+  "nodeAddressHint": "örn., localhost veya http://localhost",
+  "@nodeAddressHint": {
+    "description": "Hint for node address field"
+  },
+  "nodeAddressHelper": "Adrese http:// veya https:// ekleyebilirsiniz",
+  "@nodeAddressHelper": {
+    "description": "Helper text for node address field"
+  },
+  "enterNodeAddress": "Lütfen düğüm adresini girin",
+  "@enterNodeAddress": {
+    "description": "Validation message for empty node address"
+  },
+  "port": "Port",
+  "@port": {
+    "description": "Label for port field"
+  },
+  "portHint": "örn., 19332",
+  "@portHint": {
+    "description": "Hint for port field"
+  },
+  "enterPortNumber": "Lütfen port numarasını girin",
+  "@enterPortNumber": {
+    "description": "Validation message for empty port"
+  },
+  "enterValidPort": "Lütfen geçerli bir port numarası girin (1-65535)",
+  "@enterValidPort": {
+    "description": "Validation message for invalid port"
+  },
+  "username": "Kullanıcı Adı (İsteğe bağlı)",
+  "@username": {
+    "description": "Label for username field"
+  },
+  "usernameHint": "Gerekli değilse boş bırakın",
+  "@usernameHint": {
+    "description": "Hint for username field"
+  },
+  "password": "Şifre (İsteğe bağlı)",
+  "@password": {
+    "description": "Label for password field"
+  },
+  "passwordHint": "Gerekli değilse boş bırakın",
+  "@passwordHint": {
+    "description": "Hint for password field"
+  },
+  "saveSettings": "Ayarları Kaydet",
+  "@saveSettings": {
+    "description": "Button text for saving settings"
+  },
+  "resetToDefaults": "Varsayılanlara Sıfırla",
+  "@resetToDefaults": {
+    "description": "Button text for resetting to defaults"
+  },
+  "settingsSaved": "Ayarlar başarıyla kaydedildi",
+  "@settingsSaved": {
+    "description": "Message shown when settings are saved successfully"
+  },
+  "errorSavingSettings": "Ayarlar kaydedilirken hata oluştu: {error}",
+  "@errorSavingSettings": {
+    "description": "Message shown when there is an error saving settings",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Connection refused"
+      }
+    }
+  },
+  "share": "Paylaş",
+  "@share": {
+    "description": "Button text for share"
+  },
+  "verify": "Doğrula",
+  "@verify": {
+    "description": "Button text for verify"
+  },
+  "register": "Kaydet",
+  "@register": {
+    "description": "Button text for register"
+  },
+  "copy": "Kopyala",
+  "@copy": {
+    "description": "Button text for copy"
+  },
+  "copied": "Kopyalandı",
+  "@copied": {
+    "description": "Text shown when something is copied"
+  },
+  "supportAddress": "Destek Adresi",
+  "@supportAddress": {
+    "description": "Label for support address"
+  },
+  "verifyAddress": "Adresi Doğrula",
+  "@verifyAddress": {
+    "description": "Label for verify address"
+  },
+  "addressHash": "Adres Hash'i",
+  "@addressHash": {
+    "description": "Label for address hash"
+  },
+  "support": "Destek",
+  "@support": {
+    "description": "Button text for support"
+  }
+}
