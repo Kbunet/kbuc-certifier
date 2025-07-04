@@ -1,0 +1,1011 @@
+{
+  "@@locale": "ar",
+  "appTitle": "مدير شهادات W3",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "searchHint": "البحث في الشهادات...",
+  "@searchHint": {
+    "description": "Hint text for the search field"
+  },
+  "filterByTags": "تصفية حسب العلامات",
+  "@filterByTags": {
+    "description": "Button tooltip for tag filtering"
+  },
+  "filterContent": "تصفية المحتوى",
+  "@filterContent": {
+    "description": "Button tooltip for content filtering"
+  },
+  "help": "المساعدة",
+  "@help": {
+    "description": "Button tooltip for help"
+  },
+  "settings": "الإعدادات",
+  "@settings": {
+    "description": "Button tooltip for settings"
+  },
+  "createContent": "إنشاء شهادة",
+  "@createContent": {
+    "description": "Button tooltip for creating content"
+  },
+  "importContent": "استيراد شهادة",
+  "@importContent": {
+    "description": "Button tooltip for importing content"
+  },
+  "batchImport": "استيراد مجموعة",
+  "@batchImport": {
+    "description": "Button tooltip for batch import"
+  },
+  "refresh": "تحديث",
+  "@refresh": {
+    "description": "Button tooltip for refresh"
+  },
+  "noCertificatesFound": "لم يتم العثور على شهادات",
+  "@noCertificatesFound": {
+    "description": "Message shown when no certificates are found"
+  },
+  "tryRemovingFilters": "حاول إزالة بعض عوامل تصفية العلامات",
+  "@tryRemovingFilters": {
+    "description": "Suggestion when no certificates are found with filters applied"
+  },
+  "clearAllFilters": "مسح جميع عوامل التصفية",
+  "@clearAllFilters": {
+    "description": "Button text to clear all filters"
+  },
+  "selected": "محدد",
+  "@selected": {
+    "description": "Text showing number of selected items"
+  },
+  "selectAll": "تحديد الكل",
+  "@selectAll": {
+    "description": "Button tooltip for selecting all items"
+  },
+  "exportToCSV": "تصدير إلى CSV",
+  "@exportToCSV": {
+    "description": "Button tooltip for exporting to CSV"
+  },
+  "updateTags": "تحديث العلامات",
+  "@updateTags": {
+    "description": "Button tooltip for updating tags"
+  },
+  "deleteSelected": "حذف المحدد",
+  "@deleteSelected": {
+    "description": "Button tooltip for deleting selected items"
+  },
+  "activeFilters": "عوامل التصفية النشطة:",
+  "@activeFilters": {
+    "description": "Label for active filters section"
+  },
+  "and": "و",
+  "@and": {
+    "description": "Text for AND filter logic"
+  },
+  "or": "أو",
+  "@or": {
+    "description": "Text for OR filter logic"
+  },
+  "delete": "حذف",
+  "@delete": {
+    "description": "Button text for delete"
+  },
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": "Button text for cancel"
+  },
+  "close": "إغلاق",
+  "@close": {
+    "description": "Button text for close"
+  },
+  "apply": "تطبيق",
+  "@apply": {
+    "description": "Button text for apply"
+  },
+  "save": "حفظ",
+  "@save": {
+    "description": "Button text for save"
+  },
+  "qrCode": "رمز QR",
+  "@qrCode": {
+    "description": "Button tooltip for QR code"
+  },
+  "profile": "الملف الشخصي",
+  "@profile": {
+    "description": "Button tooltip for profile"
+  },
+  "helpAndInformation": "المساعدة والمعلومات",
+  "@helpAndInformation": {
+    "description": "Title for help screen"
+  },
+  "aboutApp": "حول مدير شهادات W3",
+  "@aboutApp": {
+    "description": "Title for about section"
+  },
+  "aboutAppContent": "مدير شهادات W3 هو تطبيق مصمم لإنشاء وإدارة والتحقق من الشهادات الأكاديمية باستخدام معيار W3CertificateStandard المستند إلى مواصفات CertHash v1.1.",
+  "@aboutAppContent": {
+    "description": "Content for about section"
+  },
+  "certificateTypes": "أنواع الشهادات",
+  "@certificateTypes": {
+    "description": "Title for certificate types section"
+  },
+  "certificateTypesContent": "يدعم التطبيق أنواعًا مختلفة من الشهادات بما في ذلك: شهادات الدرجة العلمية، والحضور، والتقدير، والمشاركة، والإتمام، والشرف.",
+  "@certificateTypesContent": {
+    "description": "Content for certificate types section"
+  },
+  "creatingCertificates": "إنشاء الشهادات",
+  "@creatingCertificates": {
+    "description": "Title for creating certificates section"
+  },
+  "singleCertificate": "شهادة واحدة",
+  "@singleCertificate": {
+    "description": "Title for single certificate subsection"
+  },
+  "singleCertificateContent": "انقر على زر + في الزاوية السفلية اليمنى لإنشاء شهادة جديدة. املأ جميع الحقول المطلوبة (المميزة بـ *) وأي حقول اختيارية.",
+  "@singleCertificateContent": {
+    "description": "Content for single certificate subsection"
+  },
+  "batchImportTitle": "استيراد مجموعة",
+  "@batchImportTitle": {
+    "description": "Title for batch import subsection"
+  },
+  "batchImportContent": "انقر على أيقونة المخطط لاستيراد شهادات متعددة دفعة واحدة باستخدام ملف CSV. يجب أن يتضمن ملف CSV جميع الحقول المطلوبة (النوع، المستلم، المصدر، الوصف، التاريخ).",
+  "@batchImportContent": {
+    "description": "Content for batch import subsection"
+  },
+  "requiredFields": "الحقول المطلوبة",
+  "@requiredFields": {
+    "description": "Title for required fields subsection"
+  },
+  "requiredFieldsContent": "• النوع: نوع الشهادة (درجة علمية، حضور، إلخ)\n• المستلم: الشخص الذي يتلقى الشهادة\n• المصدر: المؤسسة التي تصدر الشهادة\n• الوصف: وصف موجز للإنجاز\n• التاريخ: تاريخ الإصدار بتنسيق YYYY-MM-DD",
+  "@requiredFieldsContent": {
+    "description": "Content for required fields subsection"
+  },
+  "optionalFields": "الحقول الاختيارية",
+  "@optionalFields": {
+    "description": "Title for optional fields subsection"
+  },
+  "optionalFieldsContent": "• المدة: مدة الدورة/البرنامج\n• الحدث: اسم الحدث المرتبط\n• الموقع: مكان إصدار الشهادة\n• معرف الشهادة: معرف فريد\n• العلامات: كلمات رئيسية للتصفية (مفصولة بفواصل)",
+  "@optionalFieldsContent": {
+    "description": "Content for optional fields subsection"
+  },
+  "managingCertificates": "إدارة الشهادات",
+  "@managingCertificates": {
+    "description": "Title for managing certificates section"
+  },
+  "searching": "البحث",
+  "@searching": {
+    "description": "Title for searching subsection"
+  },
+  "searchingContent": "استخدم شريط البحث في أعلى الشاشة الرئيسية للعثور على الشهادات حسب اسم المستلم أو الوصف أو الحقول الأخرى.",
+  "@searchingContent": {
+    "description": "Content for searching subsection"
+  },
+  "filteringByTags": "التصفية حسب العلامات",
+  "@filteringByTags": {
+    "description": "Title for filtering by tags subsection"
+  },
+  "filteringByTagsContent": "انقر على أيقونة العلامة في الجزء العلوي الأيمن لتصفية الشهادات حسب العلامات. يمكنك الاختيار بين منطق AND/OR للعلامات المتعددة.",
+  "@filteringByTagsContent": {
+    "description": "Content for filtering by tags subsection"
+  },
+  "certificateDetails": "تفاصيل الشهادة",
+  "@certificateDetails": {
+    "description": "Title for certificate details subsection"
+  },
+  "certificateDetailsContent": "انقر على أي شهادة في القائمة لعرض تفاصيلها الكاملة، بما في ذلك جميع الحقول وحالة التحقق.",
+  "@certificateDetailsContent": {
+    "description": "Content for certificate details subsection"
+  },
+  "qrCodeContent": "استخدم زر رمز QR على الشهادة لإنشاء رمز QR يحتوي على تجزئة الشهادة للتحقق بسهولة.",
+  "@qrCodeContent": {
+    "description": "Content for QR code subsection"
+  },
+  "deleting": "الحذف",
+  "@deleting": {
+    "description": "Title for deleting subsection"
+  },
+  "deletingContent": "اسحب لليسار على شهادة أو استخدم زر الحذف لإزالتها من مجموعتك.",
+  "@deletingContent": {
+    "description": "Content for deleting subsection"
+  },
+  "batchOperations": "عمليات المجموعة",
+  "@batchOperations": {
+    "description": "Title for batch operations section"
+  },
+  "multiSelectMode": "وضع التحديد المتعدد",
+  "@multiSelectMode": {
+    "description": "Title for multi-select mode subsection"
+  },
+  "multiSelectModeContent": "اضغط مطولاً على أي شهادة للدخول في وضع التحديد المتعدد. ثم انقر على شهادات أخرى لتحديد عناصر متعددة.",
+  "@multiSelectModeContent": {
+    "description": "Content for multi-select mode subsection"
+  },
+  "batchTagUpdates": "تحديثات العلامات المجمعة",
+  "@batchTagUpdates": {
+    "description": "Title for batch tag updates subsection"
+  },
+  "batchTagUpdatesContent": "في وضع التحديد المتعدد، انقر على أيقونة العلامة لتحديث العلامات لجميع الشهادات المحددة دفعة واحدة.",
+  "@batchTagUpdatesContent": {
+    "description": "Content for batch tag updates subsection"
+  },
+  "csvExport": "تصدير CSV",
+  "@csvExport": {
+    "description": "Title for CSV export subsection"
+  },
+  "csvExportContent": "في وضع التحديد المتعدد، انقر على أيقونة التنزيل لتصدير جميع الشهادات المحددة إلى ملف CSV يمكن استخدامه لإعادة الاستيراد.",
+  "@csvExportContent": {
+    "description": "Content for CSV export subsection"
+  },
+  "batchDelete": "حذف المجموعة",
+  "@batchDelete": {
+    "description": "Title for batch delete subsection"
+  },
+  "batchDeleteContent": "في وضع التحديد المتعدد، انقر على أيقونة الحذف لإزالة جميع الشهادات المحددة دفعة واحدة.",
+  "@batchDeleteContent": {
+    "description": "Content for batch delete subsection"
+  },
+  "verificationBlockchain": "التحقق وسلسلة الكتل",
+  "@verificationBlockchain": {
+    "description": "Title for verification and blockchain section"
+  },
+  "certificateHash": "تجزئة الشهادة",
+  "@certificateHash": {
+    "description": "Title for certificate hash subsection"
+  },
+  "certificateHashContent": "تحتوي كل شهادة على تجزئة فريدة وحتمية تم إنشاؤها بناءً على محتواها. تضمن هذه التجزئة عدم إمكانية العبث بالشهادة.",
+  "@certificateHashContent": {
+    "description": "Content for certificate hash subsection"
+  },
+  "electrumXConnection": "اتصال ElectrumX",
+  "@electrumXConnection": {
+    "description": "Title for ElectrumX connection subsection"
+  },
+  "electrumXConnectionContent": "قم بتكوين اتصال خادم ElectrumX الخاص بك في شاشة الإعدادات للتحقق من الشهادات مقابل سجلات البلوكشين.",
+  "@electrumXConnectionContent": {
+    "description": "Content for ElectrumX connection subsection"
+  },
+  "verificationStatus": "حالة التحقق",
+  "@verificationStatus": {
+    "description": "Title for verification status subsection"
+  },
+  "verificationStatusContent": "ستظهر الشهادات المسجلة على البلوكشين شارة تحقق مع عدد التأكيدات.",
+  "@verificationStatusContent": {
+    "description": "Content for verification status subsection"
+  },
+  "electrumXServer": "خادم ElectrumX",
+  "@electrumXServer": {
+    "description": "Title for ElectrumX server subsection"
+  },
+  "electrumXServerContent": "قم بتكوين تفاصيل اتصال خادم ElectrumX بما في ذلك المضيف والمنفذ والبروتوكول.",
+  "@electrumXServerContent": {
+    "description": "Content for ElectrumX server subsection"
+  },
+  "themeSettings": "إعدادات السمة",
+  "@themeSettings": {
+    "description": "Title for theme settings subsection"
+  },
+  "themeSettingsContent": "التبديل بين السمات الفاتحة والداكنة أو استخدام الإعداد الافتراضي للنظام.",
+  "@themeSettingsContent": {
+    "description": "Content for theme settings subsection"
+  },
+  "languageSettings": "إعدادات اللغة",
+  "@languageSettings": {
+    "description": "Title for language settings subsection"
+  },
+  "languageSettingsContent": "اختر لغتك المفضلة لواجهة التطبيق.",
+  "@languageSettingsContent": {
+    "description": "Content for language settings subsection"
+  },
+  "storageInformation": "معلومات التخزين",
+  "@storageInformation": {
+    "description": "Title for storage information section"
+  },
+  "storageInformationContent": "يتم تخزين بيانات الشهادة محليًا على جهازك في دليل مستندات التطبيق. يمكن للتطبيق التعامل بكفاءة مع آلاف الشهادات، ولكن قد ينخفض الأداء مع المجموعات الكبيرة جدًا.",
+  "@storageInformationContent": {
+    "description": "Content for storage information section"
+  },
+  "exportDirectories": "مسارات التصدير",
+  "@exportDirectories": {
+    "description": "Title for export directories section"
+  },
+  "exportLocation": "موقع التصدير",
+  "@exportLocation": {
+    "description": "Title for export location subsection"
+  },
+  "exportLocationContent": "يتم حفظ جميع الملفات المصدرة (الشهادات وملفات CSV) في مجلد مخصص باسم \"KbucCertifier\" لسهولة الوصول إليها.",
+  "@exportLocationContent": {
+    "description": "Content for export location subsection"
+  },
+  "windowsPath": "ويندوز",
+  "@windowsPath": {
+    "description": "Title for Windows path subsection"
+  },
+  "windowsPathContent": "C:\\Users\\Username\\Documents\\KbucCertifier\\",
+  "@windowsPathContent": {
+    "description": "Content for Windows path subsection"
+  },
+  "macOSPath": "ماك أو إس",
+  "@macOSPath": {
+    "description": "Title for macOS path subsection"
+  },
+  "macOSPathContent": "/Users/Username/Documents/KbucCertifier/",
+  "@macOSPathContent": {
+    "description": "Content for macOS path subsection"
+  },
+  "linuxPath": "لينكس",
+  "@linuxPath": {
+    "description": "Title for Linux path subsection"
+  },
+  "linuxPathContent": "/home/username/Documents/KbucCertifier/",
+  "@linuxPathContent": {
+    "description": "Content for Linux path subsection"
+  },
+  "androidPath": "أندرويد",
+  "@androidPath": {
+    "description": "Title for Android path subsection"
+  },
+  "androidPathContent": "في مجلد Downloads/KbucCertifier في تخزين جهازك.",
+  "@androidPathContent": {
+    "description": "Content for Android path subsection"
+  },
+  "iOSPath": "آي أو إس",
+  "@iOSPath": {
+    "description": "Title for iOS path subsection"
+  },
+  "iOSPathContent": "في دليل مستندات التطبيق ضمن مجلد KbucCertifier.",
+  "@iOSPathContent": {
+    "description": "Content for iOS path subsection"
+  },
+  "verifying": "التحقق من الشهادة",
+  "@verifying": {
+    "description": "Title for certificate verification dialog"
+  },
+  "fetchingProfile": "جاري جلب الملف الشخصي للشهادة...",
+  "@fetchingProfile": {
+    "description": "Message shown when fetching certificate profile"
+  },
+  "certificateProfile": "الملف الشخصي للشهادة",
+  "@certificateProfile": {
+    "description": "Title for certificate profile dialog"
+  },
+  "noProfileFound": "لم يتم العثور على معلومات الملف الشخصي",
+  "@noProfileFound": {
+    "description": "Message shown when no profile information is found"
+  },
+  "errorFetchingProfile": "خطأ في جلب الملف الشخصي",
+  "@errorFetchingProfile": {
+    "description": "Error message when profile fetch fails"
+  },
+  "showing": "عرض",
+  "@showing": {
+    "description": "Label for pagination showing items"
+  },
+  "ofTotal": "من",
+  "@ofTotal": {
+    "description": "Preposition for pagination count"
+  },
+  "perPage": "في الصفحة",
+  "@perPage": {
+    "description": "Label for items per page in pagination"
+  },
+  "firstPage": "الصفحة الأولى",
+  "@firstPage": {
+    "description": "Tooltip for first page button"
+  },
+  "previousPage": "الصفحة السابقة",
+  "@previousPage": {
+    "description": "Tooltip for previous page button"
+  },
+  "nextPage": "الصفحة التالية",
+  "@nextPage": {
+    "description": "Tooltip for next page button"
+  },
+  "lastPage": "الصفحة الأخيرة",
+  "@lastPage": {
+    "description": "Tooltip for last page button"
+  },
+  "appVersion": "مدير شهادات W3 الإصدار 1.0",
+  "@appVersion": {
+    "description": "Application version text"
+  },
+  "batchCertificateUpload": "تحميل الشهادات بالدفعة",
+  "@batchCertificateUpload": {
+    "description": "Title for batch certificate upload screen"
+  },
+  "uploadMultipleCertificates": "تحميل شهادات متعددة",
+  "@uploadMultipleCertificates": {
+    "description": "Heading for batch upload screen"
+  },
+  "batchUploadDescription": "استخدم هذه الأداة لتحميل شهادات متعددة دفعة واحدة باستخدام ملف CSV. سيتم تحويل كل صف في ملف CSV إلى شهادة منفصلة.",
+  "@batchUploadDescription": {
+    "description": "Description text for batch upload functionality"
+  },
+  "step1DownloadTemplate": "الخطوة 1: تنزيل القالب",
+  "@step1DownloadTemplate": {
+    "description": "Step 1 heading for batch upload"
+  },
+  "downloadTemplateDescription": "تنزيل قالب CSV يحتوي على جميع الحقول المطلوبة والاختيارية للشهادات.",
+  "@downloadTemplateDescription": {
+    "description": "Description for template download step"
+  },
+  "downloadTemplate": "تنزيل القالب",
+  "@downloadTemplate": {
+    "description": "Button text for downloading template"
+  },
+  "step2UploadCSV": "الخطوة 2: تحميل ملف CSV",
+  "@step2UploadCSV": {
+    "description": "Step 2 heading for batch upload"
+  },
+  "uploadCSVDescription": "املأ القالب ببيانات الشهادات الخاصة بك وقم بتحميله هنا.",
+  "@uploadCSVDescription": {
+    "description": "Description for CSV upload step"
+  },
+  "selectCSVFile": "اختيار ملف CSV",
+  "@selectCSVFile": {
+    "description": "Button text for selecting CSV file"
+  },
+  "selectedFile": "الملف المحدد: {filename}",
+  "@selectedFile": {
+    "description": "Text showing selected file name",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "certificates.csv"
+      }
+    }
+  },
+  "step3ReviewProcess": "الخطوة 3: المراجعة والمعالجة",
+  "@step3ReviewProcess": {
+    "description": "Step 3 heading for batch upload"
+  },
+  "foundCertificates": "تم العثور على {count} شهادة (شهادات) للمعالجة.",
+  "@foundCertificates": {
+    "description": "Text showing number of certificates found",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "addTagsToAll": "إضافة علامات لجميع الشهادات:",
+  "@addTagsToAll": {
+    "description": "Label for global tags field"
+  },
+  "enterCommonTags": "أدخل العلامات المشتركة لجميع الشهادات",
+  "@enterCommonTags": {
+    "description": "Hint text for global tags field"
+  },
+  "processing": "جاري المعالجة: {current} من {total}",
+  "@processing": {
+    "description": "Text showing processing progress",
+    "placeholders": {
+      "current": {
+        "type": "int",
+        "example": "3"
+      },
+      "total": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "createCertificates": "إنشاء الشهادات",
+  "@createCertificates": {
+    "description": "Button text for creating certificates"
+  },
+  "error": "خطأ",
+  "@error": {
+    "description": "Error heading text"
+  },
+  "templateDownloaded": "تم تنزيل القالب إلى: {path}\nيمكنك فتحه بأي تطبيق جدول بيانات.",
+  "@templateDownloaded": {
+    "description": "Message shown when template is downloaded",
+    "placeholders": {
+      "path": {
+        "type": "String",
+        "example": "/downloads/certificate_template.csv"
+      }
+    }
+  },
+  "failedToCreateTemplate": "فشل في إنشاء القالب: {error}",
+  "@failedToCreateTemplate": {
+    "description": "Error message when template creation fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "failedToProcessCSV": "فشل في معالجة ملف CSV: {error}",
+  "@failedToProcessCSV": {
+    "description": "Error message when CSV processing fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Invalid format"
+      }
+    }
+  },
+  "noCertificatesToProcess": "لا توجد شهادات للمعالجة",
+  "@noCertificatesToProcess": {
+    "description": "Message when there are no certificates to process"
+  },
+  "failedToCreateCertificates": "فشل في إنشاء الشهادات: {error}",
+  "@failedToCreateCertificates": {
+    "description": "Error message when certificate creation fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Invalid data"
+      }
+    }
+  },
+  "certificatesCreatedSuccess": "تم إنشاء {count} شهادة (شهادات) بنجاح",
+  "@certificatesCreatedSuccess": {
+    "description": "Success message when certificates are created",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "certificatesCreatedWithSkipped": "تم إنشاء {created} شهادة (شهادات) بنجاح، تم تخطي {skipped} مكررة",
+  "@certificatesCreatedWithSkipped": {
+    "description": "Success message when certificates are created with some skipped",
+    "placeholders": {
+      "created": {
+        "type": "int",
+        "example": "3"
+      },
+      "skipped": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "noValidCertificateData": "لم يتم العثور على بيانات شهادة صالحة في ملف CSV",
+  "@noValidCertificateData": {
+    "description": "Message when no valid certificate data is found in CSV"
+  },
+  "contentInformation": "معلومات المحتوى",
+  "@contentInformation": {
+    "description": "Title for content information section"
+  },
+  "id": "المعرف",
+  "@id": {
+    "description": "Label for content ID"
+  },
+  "standardName": "اسم المعيار",
+  "@standardName": {
+    "description": "Label for standard name"
+  },
+  "standardVersion": "إصدار المعيار",
+  "@standardVersion": {
+    "description": "Label for standard version"
+  },
+  "files": "الملفات",
+  "@files": {
+    "description": "Label for files section"
+  },
+  "contentHash": "تجزئة المحتوى",
+  "@contentHash": {
+    "description": "Label for content hash"
+  },
+  "name": "الاسم",
+  "@name": {
+    "description": "Label for content name"
+  },
+  "description": "الوصف",
+  "@description": {
+    "description": "Label for content description"
+  },
+  "created": "تاريخ الإنشاء",
+  "@created": {
+    "description": "Label for creation date"
+  },
+  "creator": "المنشئ",
+  "@creator": {
+    "description": "Label for content creator"
+  },
+  "owner": "المالك",
+  "@owner": {
+    "description": "Label for content owner"
+  },
+  "notSet": "غير محدد",
+  "@notSet": {
+    "description": "Text for when a value is not set"
+  },
+  "reputationScore": "نقاط السمعة",
+  "@reputationScore": {
+    "description": "Label for reputation score"
+  },
+  "tags": "العلامات",
+  "@tags": {
+    "description": "Label for tags section"
+  },
+  "noTags": "لا توجد علامات",
+  "@noTags": {
+    "description": "Text shown when there are no tags"
+  },
+  "editTags": "تعديل العلامات",
+  "@editTags": {
+    "description": "Tooltip for edit tags button"
+  },
+  "actions": "الإجراءات",
+  "@actions": {
+    "description": "Title for actions section"
+  },
+  "verifyContent": "التحقق من المحتوى",
+  "@verifyContent": {
+    "description": "Label for verify content action"
+  },
+  "verifyingContent": "جاري التحقق من المحتوى...",
+  "@verifyingContent": {
+    "description": "Message shown while verifying content"
+  },
+  "contentVerificationSuccess": "تم التحقق من المحتوى بنجاح! جميع الملفات صالحة.",
+  "@contentVerificationSuccess": {
+    "description": "Message shown when content verification is successful"
+  },
+  "contentVerificationFailed": "فشل التحقق من المحتوى. قد تكون الملفات تالفة أو مفقودة.",
+  "@contentVerificationFailed": {
+    "description": "Message shown when content verification fails"
+  },
+  "verificationError": "خطأ في التحقق: {error}",
+  "@verificationError": {
+    "description": "Error message when verification fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "exportContent": "تصدير المحتوى",
+  "@exportContent": {
+    "description": "Label for export content action"
+  },
+  "contentExportedSuccess": "تم تصدير المحتوى بنجاح",
+  "@contentExportedSuccess": {
+    "description": "Message shown when content is exported successfully"
+  },
+  "failedToExportContent": "فشل تصدير المحتوى: {error}",
+  "@failedToExportContent": {
+    "description": "Error message when content export fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "deleteContent": "حذف المحتوى",
+  "@deleteContent": {
+    "description": "Label for delete content action"
+  },
+  "deleteContentConfirmation": "هل أنت متأكد من رغبتك في حذف هذا المحتوى؟ لا يمكن التراجع عن هذا الإجراء.",
+  "@deleteContentConfirmation": {
+    "description": "Confirmation message for deleting content"
+  },
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "delete": "حذف",
+  "@delete": {
+    "description": "Delete button text"
+  },
+  "certificateDetails": "تفاصيل الشهادة",
+  "@certificateDetails": {
+    "description": "Title for certificate details section"
+  },
+  "type": "النوع",
+  "@type": {
+    "description": "Label for certificate type"
+  },
+  "recipient": "المستلم",
+  "@recipient": {
+    "description": "Label for certificate recipient"
+  },
+  "issuer": "المصدر",
+  "@issuer": {
+    "description": "Label for certificate issuer"
+  },
+  "date": "التاريخ",
+  "@date": {
+    "description": "Label for certificate date"
+  },
+  "duration": "المدة",
+  "@duration": {
+    "description": "Label for certificate duration"
+  },
+  "event": "الحدث",
+  "@event": {
+    "description": "Label for certificate event"
+  },
+  "location": "الموقع",
+  "@location": {
+    "description": "Label for certificate location"
+  },
+  "certificateId": "معرف الشهادة",
+  "@certificateId": {
+    "description": "Label for certificate ID"
+  },
+  "showCertificateQRCode": "عرض رمز QR للشهادة",
+  "@showCertificateQRCode": {
+    "description": "Tooltip for show certificate QR code button"
+  },
+  "sendReputation": "إرسال سمعة",
+  "@sendReputation": {
+    "description": "Label for send reputation button"
+  },
+  "share": "مشاركة",
+  "@share": {
+    "description": "Label for share button"
+  },
+  "showQRCode": "عرض رمز QR",
+  "@showQRCode": {
+    "description": "Tooltip for show QR code button"
+  },
+  "editCertificateTags": "تعديل علامات الشهادة",
+  "@editCertificateTags": {
+    "description": "Title for edit certificate tags dialog"
+  },
+  "certificateTags": "علامات الشهادة",
+  "@certificateTags": {
+    "description": "Label for certificate tags field"
+  },
+  "enterTagsSeparatedByCommas": "أدخل العلامات مفصولة بفواصل",
+  "@enterTagsSeparatedByCommas": {
+    "description": "Hint text for tags input field"
+  },
+  "save": "حفظ",
+  "@save": {
+    "description": "Save button text"
+  },
+  "tagsUpdatedSuccessfully": "تم تحديث العلامات بنجاح",
+  "@tagsUpdatedSuccessfully": {
+    "description": "Message shown when tags are updated successfully"
+  },
+  "failedToUpdateTags": "فشل تحديث العلامات: {error}",
+  "@failedToUpdateTags": {
+    "description": "Error message when tag update fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "certificateHashVerified": "تم التحقق من تجزئة الشهادة",
+  "@certificateHashVerified": {
+    "description": "Message shown when certificate hash is verified"
+  },
+  "addressQRTitle": "عنوان {label}",
+  "@addressQRTitle": {
+    "description": "Title for address QR dialog",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "Creator"
+      }
+    }
+  },
+  "supportAddress": "دعم العنوان",
+  "@supportAddress": {
+    "description": "Title for support address mode in QR dialog"
+  },
+  "verifyAddress": "التحقق من العنوان",
+  "@verifyAddress": {
+    "description": "Title for verify address mode in QR dialog"
+  },
+  "addressHash": "تجزئة العنوان",
+  "@addressHash": {
+    "description": "Title for address hash mode in QR dialog"
+  },
+  "support": "دعم",
+  "@support": {
+    "description": "Label for support button in address QR dialog"
+  },
+  "copy": "نسخ",
+  "@copy": {
+    "description": "Copy button text"
+  },
+  "close": "إغلاق",
+  "@close": {
+    "description": "Close button text"
+  },
+  "addressCopiedToClipboard": "تم نسخ العنوان إلى الحافظة",
+  "@addressCopiedToClipboard": {
+    "description": "Message shown when address is copied to clipboard"
+  },
+
+  "copiedToClipboard": "تم النسخ إلى الحافظة",
+  "@copiedToClipboard": {
+    "description": "Message shown when content is copied to clipboard"
+  },
+  "copyToClipboard": "نسخ إلى الحافظة",
+  "@copyToClipboard": {
+    "description": "Tooltip for copy button"
+  },
+  "certificateHash": "هاش الشهادة",
+  "@certificateHash": {
+    "description": "Label for certificate hash mode in QR dialog"
+  },
+  "registerCertificate": "تسجيل الشهادة",
+  "@registerCertificate": {
+    "description": "Label for register certificate mode in QR dialog"
+  },
+  "verifyCertificate": "التحقق من الشهادة",
+  "@verifyCertificate": {
+    "description": "Label for verify certificate mode in QR dialog"
+  },
+  "hash": "هاش",
+  "@hash": {
+    "description": "Button label for hash mode in QR dialog"
+  },
+  "register": "تسجيل",
+  "@register": {
+    "description": "Button label for register mode in QR dialog"
+  },
+  "verify": "تحقق",
+  "@verify": {
+    "description": "Button label for verify mode in QR dialog"
+  },
+
+  "filterContent": "تصفية المحتوى",
+  "@filterContent": {
+    "description": "Title for filter content dialog"
+  },
+  "standard": "المعيار:",
+  "@standard": {
+    "description": "Label for standard filter in filter dialog"
+  },
+  "allStandards": "جميع المعايير",
+  "@allStandards": {
+    "description": "Option for showing all standards in filter dialog"
+  },
+  "showRegisteredOnly": "إظهار المسجلة فقط",
+  "@showRegisteredOnly": {
+    "description": "Label for registered content filter in filter dialog"
+  },
+  "clearFilters": "مسح التصفية",
+  "@clearFilters": {
+    "description": "Button to clear all filters"
+  },
+  "filterByTags": "تصفية حسب العلامات",
+  "@filterByTags": {
+    "description": "Title for tag filter dialog"
+  },
+  "selectTagsToFilter": "اختر العلامات لتصفية الشهادات:",
+  "@selectTagsToFilter": {
+    "description": "Instruction text in tag filter dialog"
+  },
+  "clearAll": "مسح الكل",
+  "@clearAll": {
+    "description": "Button to clear all selected tags"
+  },
+  "apply": "تطبيق",
+  "@apply": {
+    "description": "Button to apply selected filters"
+  },
+
+  "profileInformation": "معلومات الملف الشخصي",
+  "@profileInformation": {
+    "description": "Title for profile information dialog"
+  },
+  "fetchingProfileData": "جاري جلب بيانات الملف الشخصي...",
+  "@fetchingProfileData": {
+    "description": "Loading message when fetching profile data"
+  },
+  "noProfileDataFound": "لم يتم العثور على بيانات الملف الشخصي",
+  "@noProfileDataFound": {
+    "description": "Message shown when no profile data is found"
+  },
+  "owner": "المالك: {owner}",
+  "@owner": {
+    "description": "Owner field in profile dialog",
+    "placeholders": {
+      "owner": {}
+    }
+  },
+  "ownerLabel": "المالك",
+  "@ownerLabel": {
+    "description": "Owner label without placeholder"
+  },
+  "rps": "RPS: {rps}",
+  "@rps": {
+    "description": "RPS field in profile dialog",
+    "placeholders": {
+      "rps": {}
+    }
+  },
+  "tenant": "المستأجر: {tenant}",
+  "@tenant": {
+    "description": "Tenant field in profile dialog",
+    "placeholders": {
+      "tenant": {}
+    }
+  },
+  "rentedAt": "تاريخ الإيجار: {date}",
+  "@rentedAt": {
+    "description": "Rented at date field in profile dialog",
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "duration": "المدة: {duration} ثانية",
+  "@duration": {
+    "description": "Duration field in profile dialog",
+    "placeholders": {
+      "duration": {}
+    }
+  },
+  "durationLabel": "المدة",
+  "@durationLabel": {
+    "description": "Duration label without placeholder"
+  },
+  "ownedProfiles": "الملفات الشخصية المملوكة: {count}",
+  "@ownedProfiles": {
+    "description": "Owned profiles count in profile dialog",
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "refresh": "تحديث",
+  "@refresh": {
+    "description": "Refresh button text"
+  },
+  "retry": "إعادة المحاولة",
+  "@retry": {
+    "description": "Retry button text"
+  },
+  "error": "خطأ: {message}",
+  "@error": {
+    "description": "Error message with details",
+    "placeholders": {
+      "message": {}
+    }
+  },
+  "errorTitle": "خطأ",
+  "@errorTitle": {
+    "description": "Simple error title without details"
+  },
+  "officialWebsite": "الموقع الرسمي",
+  "help": "مساعدة",
+  "settings": "الإعدادات",
+  "share": "مشاركة",
+  "export": "تصدير",
+  "view": "عرض",
+  "tryRemovingFilters": "حاول إزالة بعض عوامل تصفية العلامات",
+  "searchCertificates": "البحث في الشهادات أو العلامات...",
+  "filterLogic": "منطق التصفية:",
+  "unifiedSearch": "موحد",
+  "activeTags": "العلامات النشطة:",
+  "blockchainIntegration": "تكامل البلوكشين",
+  "privacyPreservingVerification": "التحقق مع الحفاظ على الخصوصية",
+  "privacyPreservingVerificationContent": "يتم تسجيل التجزئة التشفيرية فقط لبيانات الشهادة على البلوكشين. يظل المحتوى الفعلي خارج البلوكشين، مما يحافظ على الخصوصية مع السماح بالتحقق العام.",
+  "immutableIssuerIdentity": "هوية المُصدر غير قابلة للتغيير",
+  "immutableIssuerIdentityContent": "ترتبط كل شهادة بشكل دائم بهوية قائمة على البلوكشين تمثل المؤسسة المصدرة، مما يمنع التزوير ويضمن الثقة.",
+  "delegatedCertificateIssuance": "إصدار الشهادات المفوض",
+  "delegatedCertificateIssuanceContent": "يمكن إجراء الإصدار عبر ملف تعريف مفوض يمثل المؤسسة بدلاً من مفتاح تشفير شخصي، مما يضمن استمرارية المؤسسة.",
+  "certificateOwnership": "ملكية الشهادة",
+  "certificateOwnershipContent": "يمكن للطلاب اختياريًا الحصول على ملكية شهاداتهم على البلوكشين، مما يعزز التحكم والتنقل دون الحاجة إلى التحقق.",
+  "implementationProcess": "عملية التنفيذ",
+  "implementationProcessContent": "1. تكوين هوية قائمة على البلوكشين للمؤسسة\n2. تفويض حقوق الإصدار لملف تعريف متحكم به\n3. استخدام هذا التطبيق لإنشاء وتجزئة محتوى الشهادة\n4. تسجيل التجزئة والبيانات الوصفية على البلوكشين\n5. تصدير بيانات الشهادة للمستلم لتخزينها أو مشاركتها",
+  "aboutKbunetNetwork": "حول شبكة KBUNET",
+  "decentralizedIdentities": "الهويات اللامركزية (DIDs)",
+  "decentralizedIdentitiesContent": "توفر KBUNET هويات رقمية آمنة ومثبتة على البلوكشين متصلة مباشرة بمحفظتك، مما يضمن الملكية والتحكم في هويتك الرقمية مع ملفات تعريف على البلوكشين ونظام شامل للسمعة.",
+  "web3ContentManagement": "إدارة محتوى الويب 3",
+  "web3ContentManagementContent": "قم بإنشاء وتأمين NFTs محليًا باستخدام تطبيق W3CM، مما يتيح إنشاء المحتوى دون اتصال بالإنترنت والتسجيل المباشر على البلوكشين دون أطراف ثالثة. هذا التطبيق جزء من نظام KBUNET البيئي لإدارة الشهادات.",
+  "reputationPoints": "نقاط السمعة (RPs)",
+  "reputationPointsContent": "اكسب وابنِ نقاط السمعة من خلال المشاركة في الشبكة، مما ينشئ نظامًا للتقييم بدون ثقة لمصداقية المستخدم وجدارة المؤسسة بالثقة.",
+  "multipleProfileTypes": "أنواع متعددة من ملفات التعريف",
+  "multipleProfileTypesContent": "اختر من بين أنواع مختلفة من ملفات التعريف بما في ذلك الهوية وNFTs والنطاقات، كل منها بميزات محددة تناسب حالات الاستخدام المختلفة بما في ذلك إصدار الشهادات.",
+  "@officialWebsite": {
+    "description": "Title for official website section in help screen"
+  }
+}

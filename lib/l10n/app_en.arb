@@ -1,0 +1,1104 @@
+{
+  "@@locale": "en",
+  "appTitle": "W3 Certificate Manager",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "searchHint": "Search certificates...",
+  "@searchHint": {
+    "description": "Hint text for the search field"
+  },
+  "filterByTags": "Filter by Tags",
+  "@filterByTags": {
+    "description": "Button tooltip for tag filtering"
+  },
+  "filterContent": "Filter Content",
+  "@filterContent": {
+    "description": "Button tooltip for content filtering"
+  },
+  "help": "Help",
+  "@help": {
+    "description": "Button tooltip for help"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Button tooltip for settings"
+  },
+  "createContent": "Create Certificate",
+  "@createContent": {
+    "description": "Button tooltip for creating content"
+  },
+  "importContent": "Import Certificate",
+  "@importContent": {
+    "description": "Button tooltip for importing content"
+  },
+  "batchImport": "Batch Import",
+  "@batchImport": {
+    "description": "Button tooltip for batch import"
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Button tooltip for refresh"
+  },
+  "noCertificatesFound": "No certificates found",
+  "@noCertificatesFound": {
+    "description": "Message shown when no certificates are found"
+  },
+  "tryRemovingFilters": "Try removing some tag filters",
+  "@tryRemovingFilters": {
+    "description": "Suggestion when no certificates are found with filters applied"
+  },
+  "clearAllFilters": "Clear all filters",
+  "@clearAllFilters": {
+    "description": "Button text to clear all filters"
+  },
+  "selected": "Selected",
+  "@selected": {
+    "description": "Text showing number of selected items"
+  },
+  "selectAll": "Select all",
+  "@selectAll": {
+    "description": "Button tooltip for selecting all items"
+  },
+  "exportToCSV": "Export to CSV",
+  "@exportToCSV": {
+    "description": "Button tooltip for exporting to CSV"
+  },
+  "updateTags": "Update tags",
+  "@updateTags": {
+    "description": "Button tooltip for updating tags"
+  },
+  "deleteSelected": "Delete selected",
+  "@deleteSelected": {
+    "description": "Button tooltip for deleting selected items"
+  },
+  "activeFilters": "Active filters:",
+  "@activeFilters": {
+    "description": "Label for active filters section"
+  },
+  "and": "AND",
+  "@and": {
+    "description": "Text for AND filter logic"
+  },
+  "or": "OR",
+  "@or": {
+    "description": "Text for OR filter logic"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Button text for delete"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Button text for cancel"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Button text for close"
+  },
+  "apply": "Apply",
+  "@apply": {
+    "description": "Button text for apply"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Button text for save"
+  },
+  "qrCode": "QR Code",
+  "@qrCode": {
+    "description": "Button tooltip for QR code"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Button tooltip for profile"
+  },
+  "helpAndInformation": "Help & Information",
+  "@helpAndInformation": {
+    "description": "Title for help screen"
+  },
+  "aboutApp": "About W3 Certificate Manager",
+  "@aboutApp": {
+    "description": "Title for about section"
+  },
+  "aboutAppContent": "W3 Certificate Manager is an application designed to create, manage, and verify academic certificates using the W3CertificateStandard based on CertHash v1.1 specification.",
+  "@aboutAppContent": {
+    "description": "Content for about section"
+  },
+  "certificateTypes": "Certificate Types",
+  "@certificateTypes": {
+    "description": "Title for certificate types section"
+  },
+  "certificateTypesContent": "The application supports various certificate types including: degree, attendance, appreciation, participation, completion, and honor certificates.",
+  "@certificateTypesContent": {
+    "description": "Content for certificate types section"
+  },
+  "creatingCertificates": "Creating Certificates",
+  "@creatingCertificates": {
+    "description": "Title for creating certificates section"
+  },
+  "singleCertificate": "Single Certificate",
+  "@singleCertificate": {
+    "description": "Title for single certificate subsection"
+  },
+  "singleCertificateContent": "Tap the + button in the bottom right corner to create a new certificate. Fill in all required fields (marked with *) and any optional fields.",
+  "@singleCertificateContent": {
+    "description": "Content for single certificate subsection"
+  },
+  "batchImportTitle": "Batch Import",
+  "@batchImportTitle": {
+    "description": "Title for batch import subsection"
+  },
+  "batchImportContent": "Tap the chart icon to import multiple certificates at once using a CSV file. The CSV must include all required fields (type, recipient, issuer, description, date).",
+  "@batchImportContent": {
+    "description": "Content for batch import subsection"
+  },
+  "requiredFields": "Required Fields",
+  "@requiredFields": {
+    "description": "Title for required fields subsection"
+  },
+  "requiredFieldsContent": "• Type: The certificate type (degree, attendance, etc.)\n• Recipient: Person receiving the certificate\n• Issuer: Organization issuing the certificate\n• Description: Brief description of achievement\n• Date: Issue date in YYYY-MM-DD format",
+  "@requiredFieldsContent": {
+    "description": "Content for required fields subsection"
+  },
+  "optionalFields": "Optional Fields",
+  "@optionalFields": {
+    "description": "Title for optional fields subsection"
+  },
+  "optionalFieldsContent": "• Duration: Length of course/program\n• Event: Associated event name\n• Location: Where certificate was issued\n• Certificate ID: Unique identifier\n• Tags: Keywords for filtering (comma-separated)",
+  "@optionalFieldsContent": {
+    "description": "Content for optional fields subsection"
+  },
+  "managingCertificates": "Managing Certificates",
+  "@managingCertificates": {
+    "description": "Title for managing certificates section"
+  },
+  "searching": "Searching",
+  "@searching": {
+    "description": "Title for searching subsection"
+  },
+  "searchingContent": "Use the search bar at the top of the main screen to find certificates by recipient name, description, or other fields.",
+  "@searchingContent": {
+    "description": "Content for searching subsection"
+  },
+  "filteringByTags": "Filtering by Tags",
+  "@filteringByTags": {
+    "description": "Title for filtering by tags subsection"
+  },
+  "filteringByTagsContent": "Click the tag icon in the top right to filter certificates by tags. You can choose between AND/OR logic for multiple tags.",
+  "@filteringByTagsContent": {
+    "description": "Content for filtering by tags subsection"
+  },
+  "certificateDetails": "Certificate Details",
+  "@certificateDetails": {
+    "description": "Title for certificate details subsection"
+  },
+  "certificateDetailsContent": "Click on any certificate in the list to view its full details, including all fields and verification status.",
+  "@certificateDetailsContent": {
+    "description": "Content for certificate details subsection"
+  },
+  "qrCodeContent": "Use the QR code button on a certificate to generate a QR code containing the certificate hash for easy verification.",
+  "@qrCodeContent": {
+    "description": "Content for QR code subsection"
+  },
+  "deleting": "Deleting",
+  "@deleting": {
+    "description": "Title for deleting subsection"
+  },
+  "deletingContent": "Swipe left on a certificate or use the delete button to remove it from your collection.",
+  "@deletingContent": {
+    "description": "Content for deleting subsection"
+  },
+  "batchOperations": "Batch Operations",
+  "@batchOperations": {
+    "description": "Title for batch operations section"
+  },
+  "multiSelectMode": "Multi-Select Mode",
+  "@multiSelectMode": {
+    "description": "Title for multi-select mode subsection"
+  },
+  "multiSelectModeContent": "Long press on any certificate to enter multi-select mode. Then tap on other certificates to select multiple items.",
+  "@multiSelectModeContent": {
+    "description": "Content for multi-select mode subsection"
+  },
+  "batchTagUpdates": "Batch Tag Updates",
+  "@batchTagUpdates": {
+    "description": "Title for batch tag updates subsection"
+  },
+  "batchTagUpdatesContent": "In multi-select mode, tap the tag icon to update tags for all selected certificates at once.",
+  "@batchTagUpdatesContent": {
+    "description": "Content for batch tag updates subsection"
+  },
+  "csvExport": "CSV Export",
+  "@csvExport": {
+    "description": "Title for CSV export subsection"
+  },
+  "csvExportContent": "In multi-select mode, tap the download icon to export all selected certificates to a CSV file that can be used for re-import.",
+  "@csvExportContent": {
+    "description": "Content for CSV export subsection"
+  },
+  "batchDelete": "Batch Delete",
+  "@batchDelete": {
+    "description": "Title for batch delete subsection"
+  },
+  "batchDeleteContent": "In multi-select mode, tap the delete icon to remove all selected certificates at once.",
+  "@batchDeleteContent": {
+    "description": "Content for batch delete subsection"
+  },
+  "verificationBlockchain": "Verification & Blockchain",
+  "@verificationBlockchain": {
+    "description": "Title for verification and blockchain section"
+  },
+  "certificateHash": "Certificate Hash",
+  "@certificateHash": {
+    "description": "Title for certificate hash subsection"
+  },
+  "certificateHashContent": "Each certificate has a unique and deterministic hash created based on its content. This hash ensures the certificate cannot be tampered with.",
+  "@certificateHashContent": {
+    "description": "Content for certificate hash subsection"
+  },
+  "electrumXConnection": "ElectrumX Connection",
+  "@electrumXConnection": {
+    "description": "Title for ElectrumX connection subsection"
+  },
+  "electrumXConnectionContent": "Configure your ElectrumX server connection in the settings screen to verify certificates against blockchain records.",
+  "@electrumXConnectionContent": {
+    "description": "Content for ElectrumX connection subsection"
+  },
+  "verificationStatus": "Verification Status",
+  "@verificationStatus": {
+    "description": "Title for verification status subsection"
+  },
+  "verificationStatusContent": "Certificates registered on the blockchain will show a verification badge with the number of confirmations.",
+  "@verificationStatusContent": {
+    "description": "Content for verification status subsection"
+  },
+  "electrumXServer": "ElectrumX Server",
+  "@electrumXServer": {
+    "description": "Title for ElectrumX server subsection"
+  },
+  "electrumXServerContent": "Configure the ElectrumX server connection details including host, port, and protocol.",
+  "@electrumXServerContent": {
+    "description": "Content for ElectrumX server subsection"
+  },
+  "themeSettings": "Theme Settings",
+  "@themeSettings": {
+    "description": "Title for theme settings subsection"
+  },
+  "themeSettingsContent": "Change between light and dark themes or use system default.",
+  "@themeSettingsContent": {
+    "description": "Content for theme settings subsection"
+  },
+  "languageSettings": "Language Settings",
+  "@languageSettings": {
+    "description": "Title for language settings subsection"
+  },
+  "languageSettingsContent": "Choose your preferred language for the application interface.",
+  "@languageSettingsContent": {
+    "description": "Content for language settings subsection"
+  },
+  "storageInformation": "Storage Information",
+  "@storageInformation": {
+    "description": "Title for storage information section"
+  },
+  "storageInformationContent": "Certificate data is stored locally on your device in the application's documents directory. The app can efficiently handle thousands of certificates, but performance may decrease with very large collections.",
+  "@storageInformationContent": {
+    "description": "Content for storage information section"
+  },
+  "exportDirectories": "Export Directories",
+  "@exportDirectories": {
+    "description": "Title for export directories section"
+  },
+  "exportLocation": "Export Location",
+  "@exportLocation": {
+    "description": "Title for export location subsection"
+  },
+  "exportLocationContent": "All exported files (certificates and CSV exports) are saved to a dedicated \"KbucCertifier\" folder for easy access.",
+  "@exportLocationContent": {
+    "description": "Content for export location subsection"
+  },
+  "windowsPath": "Windows",
+  "@windowsPath": {
+    "description": "Title for Windows path subsection"
+  },
+  "windowsPathContent": "C:\\Users\\Username\\Documents\\KbucCertifier\\",
+  "@windowsPathContent": {
+    "description": "Content for Windows path subsection"
+  },
+  "macOSPath": "macOS",
+  "@macOSPath": {
+    "description": "Title for macOS path subsection"
+  },
+  "macOSPathContent": "/Users/Username/Documents/KbucCertifier/",
+  "@macOSPathContent": {
+    "description": "Content for macOS path subsection"
+  },
+  "linuxPath": "Linux",
+  "@linuxPath": {
+    "description": "Title for Linux path subsection"
+  },
+  "linuxPathContent": "/home/username/Documents/KbucCertifier/",
+  "@linuxPathContent": {
+    "description": "Content for Linux path subsection"
+  },
+  "androidPath": "Android",
+  "@androidPath": {
+    "description": "Title for Android path subsection"
+  },
+  "androidPathContent": "In the Downloads/KbucCertifier folder in your device storage.",
+  "@androidPathContent": {
+    "description": "Content for Android path subsection"
+  },
+  "iOSPath": "iOS",
+  "@iOSPath": {
+    "description": "Title for iOS path subsection"
+  },
+  "iOSPathContent": "In the app's documents directory under KbucCertifier folder.",
+  "@iOSPathContent": {
+    "description": "Content for iOS path subsection"
+  },
+  "verifying": "Verifying Certificate",
+  "@verifying": {
+    "description": "Title for certificate verification dialog"
+  },
+  "fetchingProfile": "Fetching certificate profile...",
+  "@fetchingProfile": {
+    "description": "Message shown when fetching certificate profile"
+  },
+  "certificateProfile": "Certificate Profile",
+  "@certificateProfile": {
+    "description": "Title for certificate profile dialog"
+  },
+  "noProfileFound": "No profile information found",
+  "@noProfileFound": {
+    "description": "Message shown when no profile information is found"
+  },
+  "errorFetchingProfile": "Error fetching profile",
+  "@errorFetchingProfile": {
+    "description": "Error message when profile fetch fails"
+  },
+  "showing": "Showing",
+  "@showing": {
+    "description": "Label for pagination showing items"
+  },
+  "ofTotal": "of",
+  "@ofTotal": {
+    "description": "Preposition for pagination count"
+  },
+  "perPage": "per page",
+  "@perPage": {
+    "description": "Label for items per page in pagination"
+  },
+  "firstPage": "First page",
+  "@firstPage": {
+    "description": "Tooltip for first page button"
+  },
+  "previousPage": "Previous page",
+  "@previousPage": {
+    "description": "Tooltip for previous page button"
+  },
+  "nextPage": "Next page",
+  "@nextPage": {
+    "description": "Tooltip for next page button"
+  },
+  "lastPage": "Last page",
+  "@lastPage": {
+    "description": "Tooltip for last page button"
+  },
+  "appVersion": "W3 Certificate Manager v1.0",
+  "@appVersion": {
+    "description": "Application version text"
+  },
+  "batchCertificateUpload": "Batch Certificate Upload",
+  "@batchCertificateUpload": {
+    "description": "Title for batch certificate upload screen"
+  },
+  "uploadMultipleCertificates": "Upload Multiple Certificates",
+  "@uploadMultipleCertificates": {
+    "description": "Heading for batch upload screen"
+  },
+  "batchUploadDescription": "Use this tool to upload multiple certificates at once using a CSV file. Each row in the CSV will be converted to a separate certificate.",
+  "@batchUploadDescription": {
+    "description": "Description text for batch upload functionality"
+  },
+  "step1DownloadTemplate": "Step 1: Download Template",
+  "@step1DownloadTemplate": {
+    "description": "Step 1 heading for batch upload"
+  },
+  "downloadTemplateDescription": "Download a CSV template with all required and optional fields for certificates.",
+  "@downloadTemplateDescription": {
+    "description": "Description for template download step"
+  },
+  "downloadTemplate": "Download Template",
+  "@downloadTemplate": {
+    "description": "Button text for downloading template"
+  },
+  "step2UploadCSV": "Step 2: Upload CSV File",
+  "@step2UploadCSV": {
+    "description": "Step 2 heading for batch upload"
+  },
+  "uploadCSVDescription": "Fill in the template with your certificate data and upload it here.",
+  "@uploadCSVDescription": {
+    "description": "Description for CSV upload step"
+  },
+  "selectCSVFile": "Select CSV File",
+  "@selectCSVFile": {
+    "description": "Button text for selecting CSV file"
+  },
+  "selectedFile": "Selected file: {filename}",
+  "@selectedFile": {
+    "description": "Text showing selected file name",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "certificates.csv"
+      }
+    }
+  },
+  "step3ReviewProcess": "Step 3: Review & Process",
+  "@step3ReviewProcess": {
+    "description": "Step 3 heading for batch upload"
+  },
+  "foundCertificates": "Found {count} certificate(s) to process.",
+  "@foundCertificates": {
+    "description": "Text showing number of certificates found",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "addTagsToAll": "Add tags to all certificates:",
+  "@addTagsToAll": {
+    "description": "Label for global tags field"
+  },
+  "enterCommonTags": "Enter common tags for all certificates",
+  "@enterCommonTags": {
+    "description": "Hint text for global tags field"
+  },
+  "processing": "Processing: {current} of {total}",
+  "@processing": {
+    "description": "Text showing processing progress",
+    "placeholders": {
+      "current": {
+        "type": "int",
+        "example": "3"
+      },
+      "total": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "createCertificates": "Create Certificates",
+  "@createCertificates": {
+    "description": "Button text for creating certificates"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error heading text"
+  },
+  "templateDownloaded": "Template downloaded to: {path}\nYou can open it with any spreadsheet application.",
+  "@templateDownloaded": {
+    "description": "Message shown when template is downloaded",
+    "placeholders": {
+      "path": {
+        "type": "String",
+        "example": "/downloads/certificate_template.csv"
+      }
+    }
+  },
+  "failedToCreateTemplate": "Failed to create template: {error}",
+  "@failedToCreateTemplate": {
+    "description": "Error message when template creation fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "failedToProcessCSV": "Failed to process CSV file: {error}",
+  "@failedToProcessCSV": {
+    "description": "Error message when CSV processing fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Invalid format"
+      }
+    }
+  },
+  "noCertificatesToProcess": "No certificates to process",
+  "@noCertificatesToProcess": {
+    "description": "Message when there are no certificates to process"
+  },
+  "failedToCreateCertificates": "Failed to create certificates: {error}",
+  "@failedToCreateCertificates": {
+    "description": "Error message when certificate creation fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Invalid data"
+      }
+    }
+  },
+  "certificatesCreatedSuccess": "Successfully created {count} certificate(s)",
+  "@certificatesCreatedSuccess": {
+    "description": "Success message when certificates are created",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "certificatesCreatedWithSkipped": "Successfully created {created} certificate(s), skipped {skipped} duplicate(s)",
+  "@certificatesCreatedWithSkipped": {
+    "description": "Success message when certificates are created with some skipped",
+    "placeholders": {
+      "created": {
+        "type": "int",
+        "example": "3"
+      },
+      "skipped": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "noValidCertificateData": "No valid certificate data found in the CSV file",
+  "@noValidCertificateData": {
+    "description": "Message when no valid certificate data is found in CSV"
+  },
+  "contentInformation": "Content Information",
+  "@contentInformation": {
+    "description": "Title for content information section"
+  },
+  "id": "ID",
+  "@id": {
+    "description": "Label for content ID"
+  },
+  "standardName": "Standard Name",
+  "@standardName": {
+    "description": "Label for standard name"
+  },
+  "standardVersion": "Standard Version",
+  "@standardVersion": {
+    "description": "Label for standard version"
+  },
+  "files": "Files",
+  "@files": {
+    "description": "Label for files section"
+  },
+  "contentHash": "Content Hash",
+  "@contentHash": {
+    "description": "Label for content hash"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Label for content name"
+  },
+  "description": "Description",
+  "@description": {
+    "description": "Label for content description"
+  },
+  "created": "Created",
+  "@created": {
+    "description": "Label for creation date"
+  },
+  "creator": "Creator",
+  "@creator": {
+    "description": "Label for content creator"
+  },
+  "owner": "Owner",
+  "@owner": {
+    "description": "Label for content owner"
+  },
+  "notSet": "Not Set",
+  "@notSet": {
+    "description": "Text for when a value is not set"
+  },
+  "reputationScore": "Reputation Score",
+  "@reputationScore": {
+    "description": "Label for reputation score"
+  },
+  "tags": "Tags",
+  "@tags": {
+    "description": "Label for tags section"
+  },
+  "noTags": "No tags",
+  "@noTags": {
+    "description": "Text shown when there are no tags"
+  },
+  "editTags": "Edit tags",
+  "@editTags": {
+    "description": "Tooltip for edit tags button"
+  },
+  "actions": "Actions",
+  "@actions": {
+    "description": "Title for actions section"
+  },
+  "verifyContent": "Verify Content",
+  "@verifyContent": {
+    "description": "Label for verify content action"
+  },
+  "verifyingContent": "Verifying content...",
+  "@verifyingContent": {
+    "description": "Message shown while verifying content"
+  },
+  "contentVerificationSuccess": "Content verification successful! All files are valid.",
+  "@contentVerificationSuccess": {
+    "description": "Message shown when content verification is successful"
+  },
+  "contentVerificationFailed": "Content verification failed. Files may be corrupted or missing.",
+  "@contentVerificationFailed": {
+    "description": "Message shown when content verification fails"
+  },
+  "verificationError": "Verification error: {error}",
+  "@verificationError": {
+    "description": "Error message when verification fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "exportContent": "Export Content",
+  "@exportContent": {
+    "description": "Label for export content action"
+  },
+  "contentExportedSuccess": "Content exported successfully",
+  "@contentExportedSuccess": {
+    "description": "Message shown when content is exported successfully"
+  },
+  "failedToExportContent": "Failed to export content: {error}",
+  "@failedToExportContent": {
+    "description": "Error message when content export fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "deleteContent": "Delete Content",
+  "@deleteContent": {
+    "description": "Label for delete content action"
+  },
+  "deleteContentConfirmation": "Are you sure you want to delete this certificate? This action cannot be undone.",
+  "@deleteContentConfirmation": {
+    "description": "Confirmation message when deleting content"
+  },
+  "showQRCode": "View QR Code",
+  "@showQRCode": {
+    "description": "Button text for viewing certificate QR code"
+  },
+  "cancel": "CANCEL",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "delete": "DELETE",
+  "@delete": {
+    "description": "Delete button text"
+  },
+  "certificateDetails": "Certificate Details",
+  "@certificateDetails": {
+    "description": "Title for certificate details section"
+  },
+  "type": "Type",
+  "@type": {
+    "description": "Label for certificate type"
+  },
+  "recipient": "Recipient",
+  "@recipient": {
+    "description": "Label for certificate recipient"
+  },
+  "issuer": "Issuer",
+  "@issuer": {
+    "description": "Label for certificate issuer"
+  },
+  "date": "Date",
+  "@date": {
+    "description": "Label for certificate date"
+  },
+  "duration": "Duration",
+  "@duration": {
+    "description": "Label for certificate duration"
+  },
+  "event": "Event",
+  "@event": {
+    "description": "Label for certificate event"
+  },
+  "location": "Location",
+  "@location": {
+    "description": "Label for certificate location"
+  },
+  "certificateId": "Certificate ID",
+  "@certificateId": {
+    "description": "Label for certificate ID"
+  },
+  "showCertificateQRCode": "Show Certificate QR Code",
+  "@showCertificateQRCode": {
+    "description": "Tooltip for show certificate QR code button"
+  },
+  "sendReputation": "Send Reputation",
+  "@sendReputation": {
+    "description": "Label for send reputation button"
+  },
+  "share": "Share",
+  "@share": {
+    "description": "Label for share button"
+  },
+  "showQRCode": "Show QR Code",
+  "@showQRCode": {
+    "description": "Tooltip for show QR code button"
+  },
+  "editCertificateTags": "Edit Certificate Tags",
+  "@editCertificateTags": {
+    "description": "Title for edit certificate tags dialog"
+  },
+  "certificateTags": "Certificate Tags",
+  "@certificateTags": {
+    "description": "Label for certificate tags field"
+  },
+  "enterTagsSeparatedByCommas": "Enter tags separated by commas",
+  "@enterTagsSeparatedByCommas": {
+    "description": "Hint text for tags input field"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+  "tagsUpdatedSuccessfully": "Tags updated successfully",
+  "@tagsUpdatedSuccessfully": {
+    "description": "Message shown when tags are updated successfully"
+  },
+  "failedToUpdateTags": "Failed to update tags: {error}",
+  "@failedToUpdateTags": {
+    "description": "Error message when tag update fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "certificateHashVerified": "Certificate hash verified",
+  "@certificateHashVerified": {
+    "description": "Message shown when certificate hash is verified"
+  },
+  "addressQRTitle": "Address: {label}",
+  "@addressQRTitle": {
+    "description": "Title for address QR dialog",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "Creator"
+      }
+    }
+  },
+  "supportAddress": "Support Address",
+  "@supportAddress": {
+    "description": "Title for support address mode in QR dialog"
+  },
+  "verifyAddress": "Verify Address",
+  "@verifyAddress": {
+    "description": "Title for verify address mode in QR dialog"
+  },
+  "addressHash": "Address Hash",
+  "@addressHash": {
+    "description": "Title for address hash mode in QR dialog"
+  },
+  "support": "Support",
+  "@support": {
+    "description": "Label for support button in address QR dialog"
+  },
+  "copy": "Copy",
+  "@copy": {
+    "description": "Copy button text"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close button text"
+  },
+  "addressCopiedToClipboard": "Address copied to clipboard",
+  "@addressCopiedToClipboard": {
+    "description": "Message shown when an address is copied to clipboard"
+  },
+  "copiedToClipboard": "Copied to clipboard",
+  "@copiedToClipboard": {
+    "description": "Message shown when content is copied to clipboard"
+  },
+  "copyToClipboard": "Copy to clipboard",
+  "@copyToClipboard": {
+    "description": "Tooltip for copy button"
+  },
+  "certificateHash": "Certificate Hash",
+  "@certificateHash": {
+    "description": "Label for certificate hash mode in QR dialog"
+  },
+  "registerCertificate": "Register Certificate",
+  "@registerCertificate": {
+    "description": "Label for register certificate mode in QR dialog"
+  },
+  "verifyCertificate": "Verify Certificate",
+  "@verifyCertificate": {
+    "description": "Label for verify certificate mode in QR dialog"
+  },
+  "hash": "Hash",
+  "@hash": {
+    "description": "Button label for hash mode in QR dialog"
+  },
+  "register": "Register",
+  "@register": {
+    "description": "Button label for register mode in QR dialog"
+  },
+  "verify": "Verify",
+  "@verify": {
+    "description": "Button label for verify mode in QR dialog"
+  },
+
+  "filterContent": "Filter Content",
+  "@filterContent": {
+    "description": "Title for filter content dialog"
+  },
+  "standard": "Standard:",
+  "@standard": {
+    "description": "Label for standard filter in filter dialog"
+  },
+  "allStandards": "All Standards",
+  "@allStandards": {
+    "description": "Option for showing all standards in filter dialog"
+  },
+  "showRegisteredOnly": "Show Registered Only",
+  "@showRegisteredOnly": {
+    "description": "Label for registered content filter in filter dialog"
+  },
+  "clearFilters": "Clear Filters",
+  "@clearFilters": {
+    "description": "Button to clear all filters"
+  },
+  "filterByTags": "Filter by Tags",
+  "@filterByTags": {
+    "description": "Title for tag filter dialog"
+  },
+  "selectTagsToFilter": "Select tags to filter certificates:",
+  "@selectTagsToFilter": {
+    "description": "Instruction text in tag filter dialog"
+  },
+  "clearAll": "Clear All",
+  "@clearAll": {
+    "description": "Button to clear all selected tags"
+  },
+  "apply": "Apply",
+  "@apply": {
+    "description": "Button to apply selected filters"
+  },
+
+  "profileInformation": "Profile Information",
+  "@profileInformation": {
+    "description": "Title for profile information dialog"
+  },
+  "fetchingProfileData": "Fetching profile data...",
+  "@fetchingProfileData": {
+    "description": "Loading message when fetching profile data"
+  },
+  "noProfileDataFound": "No profile data found",
+  "@noProfileDataFound": {
+    "description": "Message shown when no profile data is found"
+  },
+  "owner": "Owner: {owner}",
+  "@owner": {
+    "description": "Owner field in profile dialog",
+    "placeholders": {
+      "owner": {}
+    }
+  },
+  "ownerLabel": "Owner",
+  "@ownerLabel": {
+    "description": "Owner label without placeholder"
+  },
+  "rps": "RPS: {rps}",
+  "@rps": {
+    "description": "RPS field in profile dialog",
+    "placeholders": {
+      "rps": {}
+    }
+  },
+  "tenant": "Tenant: {tenant}",
+  "@tenant": {
+    "description": "Tenant field in profile dialog",
+    "placeholders": {
+      "tenant": {}
+    }
+  },
+  "rentedAt": "Rented At: {date}",
+  "@rentedAt": {
+    "description": "Rented at date field in profile dialog",
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "duration": "Duration: {duration} seconds",
+  "@duration": {
+    "description": "Duration field in profile dialog",
+    "placeholders": {
+      "duration": {}
+    }
+  },
+  "durationLabel": "Duration",
+  "@durationLabel": {
+    "description": "Duration label without placeholder"
+  },
+  "ownedProfiles": "Owned Profiles: {count}",
+  "@ownedProfiles": {
+    "description": "Owned profiles count in profile dialog",
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh button text"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button text"
+  },
+  "error": "Error: {message}",
+  "@error": {
+    "description": "Error message with details",
+    "placeholders": {
+      "message": {}
+    }
+  },
+  "errorTitle": "Error",
+  "@errorTitle": {
+    "description": "Simple error title without details"
+  },
+  "officialWebsite": "Official Website",
+  "help": "Help",
+  "@help": {
+    "description": "Help button text"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings button text"
+  },
+  "share": "Share",
+  "@share": {
+    "description": "Share button text for certificate cards"
+  },
+  "export": "Export",
+  "@export": {
+    "description": "Export button text for certificate cards"
+  },
+  "view": "View",
+  "@view": {
+    "description": "View button text for certificate cards"
+  },
+  "tryRemovingFilters": "Try removing some tag filters",
+  "@tryRemovingFilters": {
+    "description": "Suggestion when no certificates match current filters"
+  },
+  "searchCertificates": "Search certificates or tags...",
+  "@searchCertificates": {
+    "description": "Placeholder text for certificate search field"
+  },
+  "filterLogic": "Filter Logic:",
+  "@filterLogic": {
+    "description": "Label for filter logic controls"
+  },
+  "unifiedSearch": "Unified",
+  "@unifiedSearch": {
+    "description": "Label for unified search toggle button"
+  },
+  "activeTags": "Active Tags:",
+  "@activeTags": {
+    "description": "Label for active tags section"
+  },
+  "blockchainIntegration": "Blockchain Integration",
+  "@blockchainIntegration": {
+    "description": "Title for blockchain integration section in help screen"
+  },
+  "privacyPreservingVerification": "Privacy-Preserving Verification",
+  "@privacyPreservingVerification": {
+    "description": "Title for privacy-preserving verification subsection"
+  },
+  "privacyPreservingVerificationContent": "Only a cryptographic hash of the certificate data is recorded on-chain. The actual content remains off-chain, preserving privacy while allowing public verification.",
+  "@privacyPreservingVerificationContent": {
+    "description": "Content for privacy-preserving verification subsection"
+  },
+  "immutableIssuerIdentity": "Immutable Issuer Identity",
+  "@immutableIssuerIdentity": {
+    "description": "Title for immutable issuer identity subsection"
+  },
+  "immutableIssuerIdentityContent": "Each certificate is permanently linked to a blockchain-based identity representing the issuing institution, preventing forgery and ensuring trust.",
+  "@immutableIssuerIdentityContent": {
+    "description": "Content for immutable issuer identity subsection"
+  },
+  "delegatedCertificateIssuance": "Delegated Certificate Issuance",
+  "@delegatedCertificateIssuance": {
+    "description": "Title for delegated certificate issuance subsection"
+  },
+  "delegatedCertificateIssuanceContent": "Issuance can be done via a delegated profile that represents the institution rather than a personal cryptographic key, ensuring institutional continuity.",
+  "@delegatedCertificateIssuanceContent": {
+    "description": "Content for delegated certificate issuance subsection"
+  },
+  "certificateOwnership": "Certificate Ownership",
+  "@certificateOwnership": {
+    "description": "Title for certificate ownership subsection"
+  },
+  "certificateOwnershipContent": "Students may optionally receive on-chain ownership of their certificates, enhancing control and portability without requiring it for verification.",
+  "@certificateOwnershipContent": {
+    "description": "Content for certificate ownership subsection"
+  },
+  "implementationProcess": "Implementation Process",
+  "@implementationProcess": {
+    "description": "Title for implementation process subsection"
+  },
+  "implementationProcessContent": "1. Configure a blockchain-based identity for the institution\n2. Delegate issuance rights to a controlled profile\n3. Use this app to generate and hash certificate content\n4. Register the hash and metadata to the blockchain\n5. Export certificate data for the recipient to store or share",
+  "@implementationProcessContent": {
+    "description": "Content for implementation process subsection"
+  },
+  "aboutKbunetNetwork": "About KBUNET Network",
+  "@aboutKbunetNetwork": {
+    "description": "Title for about KBUNET network section in help screen"
+  },
+  "decentralizedIdentities": "Decentralized Identities (DIDs)",
+  "@decentralizedIdentities": {
+    "description": "Title for decentralized identities subsection"
+  },
+  "decentralizedIdentitiesContent": "KBUNET provides secure, blockchain-verified digital identities directly connected to your wallet, ensuring ownership and control over your digital self with on-chain profiles and a comprehensive reputation system.",
+  "@decentralizedIdentitiesContent": {
+    "description": "Content for decentralized identities subsection"
+  },
+  "web3ContentManagement": "Web3 Content Management",
+  "@web3ContentManagement": {
+    "description": "Title for web3 content management subsection"
+  },
+  "web3ContentManagementContent": "Create and secure NFTs locally with the W3CM app, enabling offline content creation and direct blockchain registration without third parties. This app is part of the KBUNET ecosystem for certificate management.",
+  "@web3ContentManagementContent": {
+    "description": "Content for web3 content management subsection"
+  },
+  "reputationPoints": "Reputation Points (RPs)",
+  "@reputationPoints": {
+    "description": "Title for reputation points subsection"
+  },
+  "reputationPointsContent": "Earn and build Reputation Points through network participation, creating a trustless system for evaluating user credibility and institution trustworthiness.",
+  "@reputationPointsContent": {
+    "description": "Content for reputation points subsection"
+  },
+  "multipleProfileTypes": "Multiple Profile Types",
+  "@multipleProfileTypes": {
+    "description": "Title for multiple profile types subsection"
+  },
+  "multipleProfileTypesContent": "Choose from various profile types including Identity, NFTs, and Domains, each with specific features suited to different use cases including certificate issuance.",
+  "@multipleProfileTypesContent": {
+    "description": "Content for multiple profile types subsection"
+  },
+  "@officialWebsite": {
+    "description": "Title for official website section in help screen"
+  }
+}
